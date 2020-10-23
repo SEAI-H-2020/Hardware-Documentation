@@ -1,0 +1,333 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "ESP32-DevKitC-V4"
+Date "2020-10-23"
+Rev "0.0"
+Comp "Faculdade de Engenharia da Universidade do Porto"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5F9292D1
+P 850 1450
+F 0 "R?" H 920 1496 50  0000 L CNN
+F 1 "2kR" H 920 1405 50  0000 L CNN
+F 2 "" V 780 1450 50  0001 C CNN
+F 3 "~" H 850 1450 50  0001 C CNN
+	1    850  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F92B38D
+P 850 1900
+F 0 "D?" V 889 1782 50  0000 R CNN
+F 1 "RED LED" V 798 1782 50  0000 R CNN
+F 2 "" H 850 1900 50  0001 C CNN
+F 3 "~" H 850 1900 50  0001 C CNN
+	1    850  1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F92B9DE
+P 850 2200
+F 0 "#PWR?" H 850 1950 50  0001 C CNN
+F 1 "GND" H 855 2027 50  0000 C CNN
+F 2 "" H 850 2200 50  0001 C CNN
+F 3 "" H 850 2200 50  0001 C CNN
+	1    850  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2050 850  2200
+Wire Wire Line
+	850  1600 850  1750
+$Comp
+L Device:C C?
+U 1 1 5F92C459
+P 1450 1800
+F 0 "C?" H 1565 1846 50  0000 L CNN
+F 1 "22uF" H 1565 1755 50  0000 L CNN
+F 2 "" H 1488 1650 50  0001 C CNN
+F 3 "~" H 1450 1800 50  0001 C CNN
+	1    1450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1650 1450 1150
+Wire Wire Line
+	1450 1150 850  1150
+Wire Wire Line
+	850  1150 850  1300
+$Comp
+L power:GND #PWR?
+U 1 1 5F92D048
+P 1450 2200
+F 0 "#PWR?" H 1450 1950 50  0001 C CNN
+F 1 "GND" H 1455 2027 50  0000 C CNN
+F 2 "" H 1450 2200 50  0001 C CNN
+F 3 "" H 1450 2200 50  0001 C CNN
+	1    1450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1950 1450 2200
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5F92D794
+P 2200 1150
+F 0 "U?" H 2200 1392 50  0000 C CNN
+F 1 "AMS1117-3.3" H 2200 1301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2200 1350 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2300 900 50  0001 C CNN
+	1    2200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1150 1450 1150
+Connection ~ 1450 1150
+Wire Wire Line
+	1450 1150 1450 1000
+Text Label 1450 1000 0    50   ~ 0
+EXT_5V
+$Comp
+L power:GND #PWR?
+U 1 1 5F92F181
+P 2200 2200
+F 0 "#PWR?" H 2200 1950 50  0001 C CNN
+F 1 "GND" H 2205 2027 50  0000 C CNN
+F 2 "" H 2200 2200 50  0001 C CNN
+F 3 "" H 2200 2200 50  0001 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2200 2200 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F92FA51
+P 3000 1000
+F 0 "#PWR?" H 3000 850 50  0001 C CNN
+F 1 "+3V3" H 3015 1173 50  0000 C CNN
+F 2 "" H 3000 1000 50  0001 C CNN
+F 3 "" H 3000 1000 50  0001 C CNN
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1000 3000 1150
+Wire Wire Line
+	3000 1150 2500 1150
+$Comp
+L Device:C C?
+U 1 1 5F9310B4
+P 3000 1800
+F 0 "C?" H 3115 1846 50  0000 L CNN
+F 1 "22uF" H 3115 1755 50  0000 L CNN
+F 2 "" H 3038 1650 50  0001 C CNN
+F 3 "~" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1650 3000 1150
+Connection ~ 3000 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5F93199B
+P 3000 2200
+F 0 "#PWR?" H 3000 1950 50  0001 C CNN
+F 1 "GND" H 3005 2027 50  0000 C CNN
+F 2 "" H 3000 2200 50  0001 C CNN
+F 3 "" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2200 3000 1950
+Wire Notes Line
+	3450 2500 3450 700 
+Wire Notes Line
+	3450 700  700  700 
+Wire Notes Line
+	700  700  700  2500
+Wire Notes Line
+	700  2500 3450 2500
+Text Notes 700  650  0    50   ~ 0
+Power Supply
+$Comp
+L RF_Module:ESP32-WROOM-32 U?
+U 1 1 5F93B762
+P 5350 3050
+F 0 "U?" H 5350 4631 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 5350 4540 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 5350 1550 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 5050 3100 50  0001 C CNN
+	1    5350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F9419AA
+P 4000 1400
+F 0 "#PWR?" H 4000 1250 50  0001 C CNN
+F 1 "+3V3" H 4015 1573 50  0000 C CNN
+F 2 "" H 4000 1400 50  0001 C CNN
+F 3 "" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F94208F
+P 4000 1650
+F 0 "R?" H 4070 1696 50  0000 L CNN
+F 1 "10kR" H 4070 1605 50  0000 L CNN
+F 2 "" V 3930 1650 50  0001 C CNN
+F 3 "~" H 4000 1650 50  0001 C CNN
+	1    4000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9429EB
+P 4000 2050
+F 0 "C?" H 4115 2096 50  0000 L CNN
+F 1 "0.1uF" H 4115 2005 50  0000 L CNN
+F 2 "" H 4038 1900 50  0001 C CNN
+F 3 "~" H 4000 2050 50  0001 C CNN
+F 4 "50V" H 4115 2005 50  0001 L CNN "Voltage"
+F 5 "10%" H 4115 1914 50  0001 L CNN "Tolerance"
+	1    4000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F942C61
+P 4000 2300
+F 0 "#PWR?" H 4000 2050 50  0001 C CNN
+F 1 "GND" H 4005 2127 50  0000 C CNN
+F 2 "" H 4000 2300 50  0001 C CNN
+F 3 "" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2300 4000 2200
+Wire Wire Line
+	4000 1900 4000 1850
+Wire Wire Line
+	4000 1500 4000 1400
+Wire Wire Line
+	4750 1850 4000 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4000 1850 4000 1800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F943FB0
+P 6000 950
+F 0 "#PWR?" H 6000 800 50  0001 C CNN
+F 1 "+3V3" H 6015 1123 50  0000 C CNN
+F 2 "" H 6000 950 50  0001 C CNN
+F 3 "" H 6000 950 50  0001 C CNN
+	1    6000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9451F0
+P 6450 1200
+F 0 "C?" H 6565 1246 50  0000 L CNN
+F 1 "0.1uF" H 6565 1155 50  0000 L CNN
+F 2 "" H 6488 1050 50  0001 C CNN
+F 3 "~" H 6450 1200 50  0001 C CNN
+F 4 "50V" H 6565 1109 50  0001 L CNN "Voltage"
+	1    6450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F946123
+P 6000 1200
+F 0 "C?" H 6115 1246 50  0000 L CNN
+F 1 "22uF" H 6115 1155 50  0000 L CNN
+F 2 "" H 6038 1050 50  0001 C CNN
+F 3 "~" H 6000 1200 50  0001 C CNN
+F 4 "10V" H 6115 1109 50  0001 L CNN "Voltage"
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1050 6000 1000
+Wire Wire Line
+	6000 1000 6450 1000
+Wire Wire Line
+	6450 1000 6450 1050
+Connection ~ 6000 1000
+Wire Wire Line
+	6000 1000 6000 950 
+Wire Wire Line
+	6450 1350 6450 1400
+Wire Wire Line
+	6450 1400 6000 1400
+Wire Wire Line
+	6000 1400 6000 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5F947B11
+P 6000 1450
+F 0 "#PWR?" H 6000 1200 50  0001 C CNN
+F 1 "GND" H 6005 1277 50  0000 C CNN
+F 2 "" H 6000 1450 50  0001 C CNN
+F 3 "" H 6000 1450 50  0001 C CNN
+	1    6000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1450 6000 1400
+Connection ~ 6000 1400
+Wire Wire Line
+	5350 1650 5350 1000
+Wire Wire Line
+	5350 1000 6000 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5F95286C
+P 5350 4550
+F 0 "#PWR?" H 5350 4300 50  0001 C CNN
+F 1 "GND" H 5355 4377 50  0000 C CNN
+F 2 "" H 5350 4550 50  0001 C CNN
+F 3 "" H 5350 4550 50  0001 C CNN
+	1    5350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4450 5350 4550
+Wire Wire Line
+	5950 1950 6500 1950
+Wire Wire Line
+	5950 2150 6500 2150
+Text Label 6500 1950 0    50   ~ 0
+TXD0
+Text Label 6500 2150 0    50   ~ 0
+RXD0
+Wire Notes Line
+	3750 700  6900 700 
+Wire Notes Line
+	6900 700  6900 4900
+Wire Notes Line
+	6900 4900 3750 4900
+Wire Notes Line
+	3750 4900 3750 700 
+Text Notes 3750 650  0    50   ~ 0
+ESP32 Module
+$EndSCHEMATC
