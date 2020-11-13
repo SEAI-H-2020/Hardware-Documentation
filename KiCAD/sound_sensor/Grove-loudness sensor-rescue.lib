@@ -1,0 +1,223 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C-0603-Grove-loudness_sensor-eagle-import
+#
+DEF C-0603-Grove-loudness_sensor-eagle-import C 0 40 Y Y 1 L N
+F0 "C" -150 0 42 H V L BNN
+F1 "C-0603-Grove-loudness_sensor-eagle-import" 0 0 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 0 -25 0 N
+P 2 1 0 0 -25 -40 -25 0 N
+P 2 1 0 0 -25 0 -25 40 N
+P 2 1 0 0 25 0 25 -40 N
+P 2 1 0 0 25 0 50 0 N
+P 2 1 0 0 25 40 25 0 N
+X 1 1 -150 0 100 R 0 0 1 0 P
+X 2 2 150 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# C-0805-Grove-loudness_sensor-eagle-import
+#
+DEF C-0805-Grove-loudness_sensor-eagle-import C 0 40 Y Y 1 L N
+F0 "C" -150 0 42 H V L BNN
+F1 "C-0805-Grove-loudness_sensor-eagle-import" 0 0 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 0 -25 0 N
+P 2 1 0 0 -25 -40 -25 0 N
+P 2 1 0 0 -25 0 -25 40 N
+P 2 1 0 0 25 0 25 -40 N
+P 2 1 0 0 25 0 50 0 N
+P 2 1 0 0 25 40 25 0 N
+X 1 1 -150 0 100 R 0 0 1 0 P
+X 2 2 150 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# LMV358D-Grove-loudness_sensor-eagle-import
+#
+DEF LMV358D-Grove-loudness_sensor-eagle-import U 0 40 Y Y 2 L N
+F0 "U" -250 250 59 H V L BNN
+F1 "LMV358D-Grove-loudness_sensor-eagle-import" -50 200 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -170 -130 50 0 1 0 + Normal 0 L B
+T 900 80 100 50 0 1 0 +V Normal 0 L B
+T 0 -170 80 50 0 1 0 - Normal 0 L B
+T 900 80 -220 50 0 1 0 GND Normal 0 L B
+T 0 -170 -130 50 0 2 0 + Normal 0 L B
+T 0 -170 80 50 0 2 0 - Normal 0 L B
+P 2 1 0 0 -200 -200 200 0 N
+P 2 1 0 0 -200 200 -200 -200 N
+P 2 1 0 0 200 0 -200 200 N
+P 2 2 0 0 -200 -200 200 0 N
+P 2 2 0 0 -200 200 -200 -200 N
+P 2 2 0 0 200 0 -200 200 N
+X OUT1 1 300 0 100 L 50 0 1 0 O
+X -IN1 2 -300 100 100 R 50 0 1 0 I
+X +IN1 3 -300 -100 100 R 50 0 1 0 I
+X GND 4 0 -200 100 U 50 0 1 0 W
+X +V 8 0 200 100 D 50 0 1 0 W
+X +IN2 5 -300 -100 100 R 50 0 2 0 I
+X -IN2 6 -300 100 100 R 50 0 2 0 I
+X OUT2 7 300 0 100 L 50 0 2 0 O
+ENDDRAW
+ENDDEF
+#
+# MICROPHONE-Grove-loudness_sensor-eagle-import
+#
+DEF MICROPHONE-Grove-loudness_sensor-eagle-import MIC 0 40 Y Y 1 L N
+F0 "MIC" -150 150 59 H V L BNN
+F1 "MICROPHONE-Grove-loudness_sensor-eagle-import" -150 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 150 1 0 6 N
+P 2 1 0 0 -150 150 -150 -150 N
+P 2 1 0 0 -50 -25 0 -25 N
+P 2 1 0 0 -50 25 0 25 N
+P 2 1 0 0 0 -25 0 -250 N
+P 2 1 0 0 0 -25 50 -25 N
+P 2 1 0 0 0 25 0 250 N
+P 2 1 0 0 0 25 50 25 N
+X + 1 0 300 100 D 50 50 1 0 B
+X - 2 0 -300 100 U 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# R-0603-Grove-loudness_sensor-eagle-import
+#
+DEF R-0603-Grove-loudness_sensor-eagle-import R 0 40 Y Y 1 L N
+F0 "R" -150 0 42 H V L BNN
+F1 "R-0603-Grove-loudness_sensor-eagle-import" 0 0 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -20 -50 20 N
+P 2 1 0 0 -50 20 50 20 N
+P 2 1 0 0 50 -20 -50 -20 N
+P 2 1 0 0 50 20 50 -20 N
+X 1 1 -150 0 100 R 0 0 1 0 P
+X 2 2 150 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import
+#
+DEF R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import R 0 40 Y Y 1 L N
+F0 "R" -400 0 59 H V L BNN
+F1 "R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import" 100 0 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -50 100 -50 N
+P 2 1 0 0 -100 50 -100 -50 N
+P 2 1 0 0 0 -70 0 -100 N
+P 2 1 0 0 0 -70 105 150 N
+P 2 1 0 0 100 -50 100 50 N
+P 2 1 0 0 100 50 -100 50 N
+P 3 1 0 0 100 100 105 150 70 115 F
+X 1 1 -200 0 100 R 50 0 1 0 P
+X 2 2 200 0 100 L 50 0 1 0 P
+X 3 3 0 -200 100 U 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import
+#
+DEF SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 7550 750 80 0 1 0 >DRAWING_NAME Normal 0 L B
+T 0 9700 200 70 0 1 0 >SHEET Normal 0 L B
+T 0 8350 450 68 0 1 0 Check: Normal 0 L B
+T 0 7000 200 68 0 1 0 Date: Normal 0 L B
+T 0 7000 450 68 0 1 0 Design: Normal 0 L B
+T 0 7000 1100 215 0 1 0 SeeedStudio Normal 0 L B
+T 0 9250 200 80 0 1 0 Sheet: Normal 0 L B
+T 0 7000 750 85 0 1 0 TITLE: Normal 0 L B
+T 0 8350 200 68 0 1 0 Vision: Normal 0 L B
+P 2 1 0 0 5350 150 5350 400 N
+P 2 1 0 0 5350 150 6905 150 N
+P 2 1 0 0 5350 400 5350 650 N
+P 2 1 0 0 5350 650 6900 650 N
+P 2 1 0 0 6905 150 8300 150 N
+P 2 1 0 0 6905 400 6905 150 N
+P 2 1 0 0 6905 400 6905 650 N
+P 2 1 0 0 6905 650 6905 1000 N
+P 2 1 0 0 6905 650 8300 650 N
+P 2 1 0 0 6905 1000 6905 1450 N
+P 2 1 0 0 6905 1000 10100 1000 N
+P 2 1 0 0 6905 1450 10100 1450 N
+P 2 1 0 0 8300 150 8300 400 N
+P 2 1 0 0 8300 150 9200 150 N
+P 2 1 0 0 8300 400 6905 400 N
+P 2 1 0 0 8300 400 8300 650 N
+P 2 1 0 0 8300 400 9200 400 N
+P 2 1 0 0 8300 650 10100 650 N
+P 2 1 0 0 9200 150 9200 400 N
+P 2 1 0 0 9200 150 10100 150 N
+P 2 1 0 0 9200 400 10100 400 N
+P 2 1 0 0 10100 150 10100 400 N
+P 2 1 0 0 10100 400 10100 650 N
+P 2 1 0 0 10100 650 10100 1000 N
+P 2 1 0 0 10100 1000 10100 1450 N
+ENDDRAW
+ENDDEF
+#
+# SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import
+#
+DEF SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import U 0 40 Y Y 1 L N
+F0 "U" -350 200 59 H V L BNN
+F1 "SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import" 0 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 0 -350 0 N
+P 2 1 0 0 -350 -200 -350 0 N
+P 2 1 0 0 -350 0 -350 200 N
+P 2 1 0 0 -350 200 350 200 N
+P 2 1 0 0 -50 -250 -50 -200 N
+P 2 1 0 0 -50 -200 -350 -200 N
+P 2 1 0 0 50 -250 50 -200 N
+P 2 1 0 0 50 -200 -50 -200 N
+P 2 1 0 0 350 -200 50 -200 N
+P 2 1 0 0 350 0 350 -200 N
+P 2 1 0 0 350 0 400 0 N
+P 2 1 0 0 350 200 350 0 N
+X OUT 1 500 0 100 L 50 50 1 0 B
+X GND@1 2 50 -350 100 U 50 50 1 0 B
+X GND@2 3 -50 -350 100 U 50 50 1 0 B
+X VDD 4 -500 0 100 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# TWIG_2.0-Grove-loudness_sensor-eagle-import
+#
+DEF TWIG_2.0-Grove-loudness_sensor-eagle-import J 0 40 Y Y 1 L N
+F0 "J" -70 220 42 H V L BNN
+F1 "TWIG_2.0-Grove-loudness_sensor-eagle-import" -70 -260 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -200 -50 200 N
+P 2 1 0 0 -50 200 150 200 N
+P 2 1 0 0 150 -200 -50 -200 N
+P 2 1 0 0 150 200 150 -200 N
+X 1 1 -150 150 200 R 50 0 1 0 B IC
+X 2 2 -150 50 200 R 50 0 1 0 B I
+X 3 3 -150 -50 200 R 50 0 1 0 B I
+X 4 4 -150 -150 200 R 50 0 1 0 B I
+ENDDRAW
+ENDDEF
+#
+#End Library
