@@ -129,16 +129,14 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5F9310B4
-P 3300 1800
-F 0 "C?" H 3415 1846 50  0000 L CNN
-F 1 "22uF" H 3415 1755 50  0000 L CNN
-F 2 "" H 3338 1650 50  0001 C CNN
-F 3 "~" H 3300 1800 50  0001 C CNN
-	1    3300 1800
+P 3300 1700
+F 0 "C?" H 3415 1746 50  0000 L CNN
+F 1 "22uF" H 3415 1655 50  0000 L CNN
+F 2 "" H 3338 1550 50  0001 C CNN
+F 3 "~" H 3300 1700 50  0001 C CNN
+	1    3300 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 1650 3300 1150
 Connection ~ 3300 1150
 $Comp
 L power:GND #PWR?
@@ -151,8 +149,6 @@ F 3 "" H 3300 2200 50  0001 C CNN
 	1    3300 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 2200 3300 1950
 Wire Notes Line
 	3850 2500 3850 700 
 Wire Notes Line
@@ -1059,4 +1055,15 @@ Text HLabel 3500 1150 2    50   Input ~ 0
 VDD33
 Wire Wire Line
 	3500 1150 3300 1150
+Wire Wire Line
+	3300 1550 3300 1150
+Wire Wire Line
+	3300 1850 3300 2050
+Wire Wire Line
+	3300 2050 3500 2050
+Connection ~ 3300 2050
+Wire Wire Line
+	3300 2050 3300 2200
+Text HLabel 3500 2050 2    50   Input ~ 0
+GND
 $EndSCHEMATC
