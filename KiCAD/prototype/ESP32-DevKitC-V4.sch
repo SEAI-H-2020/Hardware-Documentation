@@ -173,53 +173,53 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F9419AA
-P 8050 3650
-F 0 "#PWR?" H 8050 3500 50  0001 C CNN
-F 1 "+3V3" H 8065 3823 50  0000 C CNN
-F 2 "" H 8050 3650 50  0001 C CNN
-F 3 "" H 8050 3650 50  0001 C CNN
-	1    8050 3650
+P 8200 3900
+F 0 "#PWR?" H 8200 3750 50  0001 C CNN
+F 1 "+3V3" H 8215 4073 50  0000 C CNN
+F 2 "" H 8200 3900 50  0001 C CNN
+F 3 "" H 8200 3900 50  0001 C CNN
+	1    8200 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F94208F
-P 8050 3900
-F 0 "R?" H 8120 3946 50  0000 L CNN
-F 1 "10kR" H 8120 3855 50  0000 L CNN
-F 2 "" V 7980 3900 50  0001 C CNN
-F 3 "~" H 8050 3900 50  0001 C CNN
-	1    8050 3900
+P 8200 4150
+F 0 "R?" H 8270 4196 50  0000 L CNN
+F 1 "10kR" H 8270 4105 50  0000 L CNN
+F 2 "" V 8130 4150 50  0001 C CNN
+F 3 "~" H 8200 4150 50  0001 C CNN
+	1    8200 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5F9429EB
-P 8050 4300
-F 0 "C?" H 8165 4346 50  0000 L CNN
-F 1 "0.1uF" H 8165 4255 50  0000 L CNN
-F 2 "" H 8088 4150 50  0001 C CNN
-F 3 "~" H 8050 4300 50  0001 C CNN
-F 4 "50V" H 8165 4255 50  0001 L CNN "Voltage"
-F 5 "10%" H 8165 4164 50  0001 L CNN "Tolerance"
-	1    8050 4300
+P 8200 4550
+F 0 "C?" H 8315 4596 50  0000 L CNN
+F 1 "0.1uF" H 8315 4505 50  0000 L CNN
+F 2 "" H 8238 4400 50  0001 C CNN
+F 3 "~" H 8200 4550 50  0001 C CNN
+F 4 "50V" H 8315 4505 50  0001 L CNN "Voltage"
+F 5 "10%" H 8315 4414 50  0001 L CNN "Tolerance"
+	1    8200 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F942C61
-P 8050 4550
-F 0 "#PWR?" H 8050 4300 50  0001 C CNN
-F 1 "GND" H 8055 4377 50  0000 C CNN
-F 2 "" H 8050 4550 50  0001 C CNN
-F 3 "" H 8050 4550 50  0001 C CNN
-	1    8050 4550
+P 8200 4800
+F 0 "#PWR?" H 8200 4550 50  0001 C CNN
+F 1 "GND" H 8205 4627 50  0000 C CNN
+F 2 "" H 8200 4800 50  0001 C CNN
+F 3 "" H 8200 4800 50  0001 C CNN
+	1    8200 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 4550 8050 4450
+	8200 4800 8200 4700
 Wire Wire Line
-	8050 3750 8050 3650
+	8200 4000 8200 3900
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F943FB0
@@ -305,18 +305,10 @@ Wire Wire Line
 	10050 1950 10600 1950
 Wire Wire Line
 	10050 2150 10600 2150
-Text Label 10600 1950 0    50   ~ 0
-TXD0
-Text Label 10600 2150 0    50   ~ 0
-RXD0
 Wire Notes Line
 	7850 700  11000 700 
 Wire Notes Line
-	11000 700  11000 4900
-Wire Notes Line
-	11000 4900 7850 4900
-Wire Notes Line
-	7850 4900 7850 700 
+	11000 5100 7850 5100
 Text Notes 7850 650  0    50   ~ 0
 ESP32 Module
 $Comp
@@ -372,8 +364,6 @@ Text Label 2050 3150 0    50   ~ 0
 IO0
 Wire Wire Line
 	10050 1850 10600 1850
-Text Label 10600 1850 0    50   ~ 0
-IO0
 Wire Wire Line
 	1800 3150 2050 3150
 Connection ~ 1800 3150
@@ -432,18 +422,12 @@ Wire Wire Line
 	3350 3150 3600 3150
 Connection ~ 3350 3150
 Wire Wire Line
-	8050 4050 8050 4100
-Connection ~ 8050 4100
+	8200 4300 8200 4350
+Connection ~ 8200 4350
 Wire Wire Line
-	8050 4100 8050 4150
+	8200 4350 8200 4400
 Wire Wire Line
-	8050 4100 8450 4100
-Wire Wire Line
-	8550 1650 8550 1850
-Wire Wire Line
-	8550 1850 8850 1850
-Text Label 8550 1650 0    50   ~ 0
-EN
+	8200 4350 8600 4350
 Wire Notes Line
 	700  2750 3850 2750
 Wire Notes Line
@@ -500,80 +484,6 @@ Wire Wire Line
 	10050 4050 10600 4050
 Wire Wire Line
 	10050 4150 10600 4150
-Wire Wire Line
-	8850 3050 8350 3050
-Wire Wire Line
-	8850 3150 8350 3150
-Wire Wire Line
-	8850 3250 8350 3250
-Wire Wire Line
-	8850 3350 8350 3350
-Wire Wire Line
-	8850 3450 8350 3450
-Wire Wire Line
-	8850 3550 8350 3550
-Text Label 8350 3050 0    50   ~ 0
-SD0
-Text Label 8350 3150 0    50   ~ 0
-SD1
-Text Label 8350 3250 0    50   ~ 0
-SD2
-Text Label 8350 3350 0    50   ~ 0
-SD3
-Text Label 8350 3450 0    50   ~ 0
-CLK
-Text Label 8350 3550 0    50   ~ 0
-CMD
-Wire Wire Line
-	8850 2150 8350 2150
-Wire Wire Line
-	8850 2050 8350 2050
-Text Label 8350 2050 0    50   ~ 0
-SENSOR_VP
-Text Label 8350 2150 0    50   ~ 0
-SENSOR_VN
-Text Label 10600 2050 0    50   ~ 0
-IO2
-Text Label 10600 2250 0    50   ~ 0
-IO4
-Text Label 10600 2350 0    50   ~ 0
-IO5
-Text Label 10600 2450 0    50   ~ 0
-IO12
-Text Label 10600 2550 0    50   ~ 0
-IO13
-Text Label 10600 2650 0    50   ~ 0
-IO14
-Text Label 10600 2750 0    50   ~ 0
-IO15
-Text Label 10600 2850 0    50   ~ 0
-IO16
-Text Label 10600 2950 0    50   ~ 0
-IO17
-Text Label 10600 3050 0    50   ~ 0
-IO18
-Text Label 10600 3150 0    50   ~ 0
-IO19
-Text Label 10600 3250 0    50   ~ 0
-IO21
-Text Label 10600 3350 0    50   ~ 0
-IO22
-Text Label 10600 3450 0    50   ~ 0
-IO23
-Text Label 10600 3550 0    50   ~ 0
-IO25
-Text Label 10600 3650 0    50   ~ 0
-IO26
-Text Label 10600 3750 0    50   ~ 0
-IO27
-Text Label 10600 3850 0    50   ~ 0
-IO32
-Text Label 10600 3950 0    50   ~ 0
-IO33
-Text Label 10600 4050 0    50   ~ 0
-IO34
-Text Label 10600 4150 0    50   ~ 0
-IO35
 $Comp
 L Connector_Generic:Conn_01x19 J?
 U 1 1 5F9D9C6B
@@ -634,10 +544,6 @@ Wire Wire Line
 	4950 2600 4450 2600
 Wire Wire Line
 	4950 2700 4450 2700
-Wire Wire Line
-	3300 1150 3550 1150
-Text Label 3550 1150 0    50   ~ 0
-VDD33
 Text Label 4450 900  0    50   ~ 0
 VDD33
 Text Label 4450 1000 0    50   ~ 0
@@ -1061,4 +967,96 @@ Wire Wire Line
 Wire Wire Line
 	4450 3850 4550 3850
 Connection ~ 4550 3850
+Text HLabel 10600 1850 2    50   Input ~ 0
+IO0
+Text HLabel 10600 1950 2    50   Input ~ 0
+TXD0
+Text HLabel 10600 2050 2    50   Input ~ 0
+IO2
+Text HLabel 10600 2150 2    50   Input ~ 0
+RXD0
+Text HLabel 10600 2250 2    50   Input ~ 0
+IO4
+Text HLabel 10600 2350 2    50   Input ~ 0
+IO5
+Text HLabel 10600 2450 2    50   Input ~ 0
+IO12
+Text HLabel 10600 2550 2    50   Input ~ 0
+IO13
+Text HLabel 10600 2650 2    50   Input ~ 0
+IO14
+Text HLabel 10600 2750 2    50   Input ~ 0
+IO15
+Text HLabel 10600 2850 2    50   Input ~ 0
+IO16
+Text HLabel 10600 2950 2    50   Input ~ 0
+IO17
+Text HLabel 10600 3050 2    50   Input ~ 0
+IO18
+Text HLabel 10600 3150 2    50   Input ~ 0
+IO19
+Text HLabel 10600 3250 2    50   Input ~ 0
+IO21
+Text HLabel 10600 3350 2    50   Input ~ 0
+IO22
+Text HLabel 10600 3450 2    50   Input ~ 0
+IO23
+Text HLabel 10600 3550 2    50   Input ~ 0
+IO25
+Text HLabel 10600 3650 2    50   Input ~ 0
+IO26
+Text HLabel 10600 3750 2    50   Input ~ 0
+IO27
+Text HLabel 10600 3850 2    50   Input ~ 0
+IO32
+Text HLabel 10600 3950 2    50   Input ~ 0
+IO33
+Text HLabel 10600 4050 2    50   Input ~ 0
+IO34
+Text HLabel 10600 4150 2    50   Input ~ 0
+IO35
+Text HLabel 8450 2050 0    50   Input ~ 0
+SENSOR_VP
+Text HLabel 8450 2150 0    50   Input ~ 0
+SENSOR_VN
+Text HLabel 8450 3050 0    50   Input ~ 0
+SD0
+Text HLabel 8450 3150 0    50   Input ~ 0
+SD1
+Text HLabel 8450 3250 0    50   Input ~ 0
+SD2
+Text HLabel 8450 3350 0    50   Input ~ 0
+SD3
+Text HLabel 8450 3450 0    50   Input ~ 0
+CLK
+Text HLabel 8450 3550 0    50   Input ~ 0
+CMD
+Wire Notes Line
+	11000 700  11000 5100
+Wire Notes Line
+	7850 700  7850 5100
+Wire Wire Line
+	8850 2050 8450 2050
+Wire Wire Line
+	8450 2150 8850 2150
+Wire Wire Line
+	8850 3050 8450 3050
+Wire Wire Line
+	8850 3150 8450 3150
+Wire Wire Line
+	8850 3250 8450 3250
+Wire Wire Line
+	8850 3350 8450 3350
+Wire Wire Line
+	8850 3450 8450 3450
+Wire Wire Line
+	8850 3550 8450 3550
+Text HLabel 8450 1850 0    50   Input ~ 0
+EN
+Wire Wire Line
+	8450 1850 8850 1850
+Text HLabel 3500 1150 2    50   Input ~ 0
+VDD33
+Wire Wire Line
+	3500 1150 3300 1150
 $EndSCHEMATC
