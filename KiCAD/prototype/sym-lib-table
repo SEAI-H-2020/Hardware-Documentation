@@ -2,4 +2,5 @@
   (lib (name DHT22)(type Legacy)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/DHT22.lib)(options "")(descr ""))
   (lib (name Adafruit_BQ24074)(type Legacy)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/Adafruit_BQ24074-cache.lib)(options "")(descr ""))
   (lib (name BuckConverter)(type Legacy)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/buck_converter-cache.lib)(options "")(descr ""))
+  (lib (name SoundSensor)(type Legacy)(uri "C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/Grove-loudness sensor-cache.lib")(options "")(descr ""))
 )
