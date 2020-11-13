@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name DHT22)(type KiCad)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib)(options "")(descr ""))
+  (lib (name LOCAL)(type KiCad)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib)(options "")(descr ""))
 )
