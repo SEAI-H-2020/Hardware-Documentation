@@ -55,20 +55,6 @@ F35 "VDD33" I R 6650 2700 50
 F36 "GND" I L 5400 5550 50 
 $EndSheet
 $Sheet
-S 2450 2350 650  800 
-U 5FAF93BD
-F0 "BatteryCharger" 50
-F1 "BatteryCharger.sch" 50
-F2 "THERM" I L 2450 2900 50 
-F3 "ISET" I L 2450 2750 50 
-F4 "CE" I L 2450 2600 50 
-F5 "PGOOD" I L 2450 2450 50 
-F6 "CHG" I R 3100 2750 50 
-F7 "OUT" I R 3100 2600 50 
-F8 "GND" I R 3100 2450 50 
-F9 "VLIPO" I L 2450 3050 50 
-$EndSheet
-$Sheet
 S 2450 3450 550  550 
 U 5FAFBD3D
 F0 "SoundSensor" 50
@@ -114,14 +100,6 @@ Text Label 3300 4750 0    50   ~ 0
 GND
 Text Label 3350 3850 0    50   ~ 0
 GND
-Text Label 3450 2450 0    50   ~ 0
-GND
-Text Label 3450 2600 0    50   ~ 0
-Vin_Buck
-Wire Wire Line
-	3100 2600 3450 2600
-Wire Wire Line
-	3100 2450 3450 2450
 Wire Wire Line
 	3000 3550 3350 3550
 Text Label 3350 3550 0    50   ~ 0
@@ -206,4 +184,40 @@ Wire Wire Line
 	5400 4800 5150 4800
 Text Label 5150 4800 2    50   ~ 0
 Anemometer_Out
+$Sheet
+S 2450 2300 700  600 
+U 5FB60B8D
+F0 "Charger" 50
+F1 "Adafruit_BQ24074.sch" 50
+F2 "THERM" I L 2450 2800 50 
+F3 "ISET" I L 2450 2700 50 
+F4 "CE" I L 2450 2600 50 
+F5 "PGOOD" I L 2450 2500 50 
+F6 "CHG" I L 2450 2400 50 
+F7 "OUT" I R 3150 2400 50 
+F8 "VLIPO" I R 3150 2500 50 
+F9 "GND" I R 3150 2600 50 
+$EndSheet
+Wire Wire Line
+	3150 2400 3500 2400
+Wire Wire Line
+	3150 2500 3500 2500
+Wire Wire Line
+	3150 2600 3500 2600
+Wire Wire Line
+	2450 2400 2150 2400
+Wire Wire Line
+	2450 2500 2150 2500
+Wire Wire Line
+	2450 2600 2150 2600
+Wire Wire Line
+	2450 2700 2150 2700
+Wire Wire Line
+	2450 2800 2150 2800
+Text Label 3500 2400 0    50   ~ 0
+Vin_Buck
+Text Label 3500 2600 0    50   ~ 0
+GND
+Text Label 3500 2500 0    50   ~ 0
+BATTERY
 $EndSCHEMATC
