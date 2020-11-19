@@ -142,8 +142,8 @@ S 8650 2600 550  450
 U 5FB3DFB3
 F0 "Anemometer" 50
 F1 "Anemometer.sch" 50
-F2 "Vin" I L 8650 2900 50 
-F3 "Out" I L 8650 2750 50 
+F2 "Out" I L 8650 2750 50 
+F3 "COM" I L 8650 2900 50 
 $EndSheet
 Wire Wire Line
 	8650 2750 8400 2750
