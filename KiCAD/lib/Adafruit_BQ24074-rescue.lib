@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BQ24074-Adafruit_BQ24074-eagle-import
+# BQ24074-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF BQ24074-Adafruit_BQ24074-eagle-import X 0 40 Y Y 1 L N
+DEF BQ24074-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue X 0 40 Y Y 1 L N
 F0 "X" 200 -1100 59 H V L CNN
-F1 "BQ24074-Adafruit_BQ24074-eagle-import" 0 0 50 H I C CNN
+F1 "BQ24074-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -43,11 +43,11 @@ X VSS THERMAL 600 -700 100 L 0 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# CAP_CERAMIC0805-NOOUTLINE-Adafruit_BQ24074-eagle-import
+# CAP_CERAMIC0805-NOOUTLINE-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF CAP_CERAMIC0805-NOOUTLINE-Adafruit_BQ24074-eagle-import C 0 40 Y Y 1 L N
+DEF CAP_CERAMIC0805-NOOUTLINE-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue C 0 40 Y Y 1 L N
 F0 "C" -90 49 50 V V C CNN
-F1 "CAP_CERAMIC0805-NOOUTLINE-Adafruit_BQ24074-eagle-import" 90 49 50 V V C CNN
+F1 "CAP_CERAMIC0805-NOOUTLINE-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 90 49 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -60,11 +60,11 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# DCBARRELSMT-Adafruit_BQ24074-eagle-import
+# DCBARRELSMT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF DCBARRELSMT-Adafruit_BQ24074-eagle-import X 0 40 Y Y 1 L N
+DEF DCBARRELSMT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue X 0 40 Y Y 1 L N
 F0 "X" -200 200 42 H V L BNN
-F1 "DCBARRELSMT-Adafruit_BQ24074-eagle-import" -200 -200 42 H V L BNN
+F1 "DCBARRELSMT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -200 -200 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -94,11 +94,11 @@ X GNDBREAK 3 100 0 100 L 50 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# DIODE-SCHOTTKYSMA-Adafruit_BQ24074-eagle-import
+# DIODE-SCHOTTKYSMA-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF DIODE-SCHOTTKYSMA-Adafruit_BQ24074-eagle-import D 0 40 Y Y 1 L N
+DEF DIODE-SCHOTTKYSMA-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue D 0 40 Y Y 1 L N
 F0 "D" 0 100 42 H V C CNN
-F1 "DIODE-SCHOTTKYSMA-Adafruit_BQ24074-eagle-import" 0 -98 42 H V C CNN
+F1 "DIODE-SCHOTTKYSMA-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 0 -98 42 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -114,11 +114,11 @@ X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# FIDUCIAL_1MM-Adafruit_BQ24074-eagle-import
+# FIDUCIAL_1MM-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF FIDUCIAL_1MM-Adafruit_BQ24074-eagle-import FID 0 40 Y Y 1 L N
+DEF FIDUCIAL_1MM-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue FID 0 40 Y Y 1 L N
 F0 "FID" 0 0 50 H I C CNN
-F1 "FIDUCIAL_1MM-Adafruit_BQ24074-eagle-import" 0 0 50 H I C CNN
+F1 "FIDUCIAL_1MM-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -128,11 +128,11 @@ P 2 1 0 0 30 30 -30 -30 N
 ENDDRAW
 ENDDEF
 #
-# FRAME_A4_ADAFRUIT-Adafruit_BQ24074-eagle-import
+# FRAME_A4_ADAFRUIT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF FRAME_A4_ADAFRUIT-Adafruit_BQ24074-eagle-import ~ 0 40 Y Y 1 L N
+DEF FRAME_A4_ADAFRUIT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
-F1 "FRAME_A4_ADAFRUIT-Adafruit_BQ24074-eagle-import" 0 0 50 H I C CNN
+F1 "FRAME_A4_ADAFRUIT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3058,11 +3058,11 @@ P 2 1 0 0 10100 750 10100 1450 N
 ENDDRAW
 ENDDEF
 #
-# GND-Adafruit_BQ24074-eagle-import
+# GND-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF GND-Adafruit_BQ24074-eagle-import #GND 0 40 Y Y 1 L P
+DEF GND-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue #GND 0 40 Y Y 1 L P
 F0 "#GND" 0 0 50 H I C CNN
-F1 "GND-Adafruit_BQ24074-eagle-import" -100 -100 59 H V L BNN
+F1 "GND-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -100 -100 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3071,11 +3071,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# HEADER-1X1-Adafruit_BQ24074-eagle-import
+# HEADER-1X1-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF HEADER-1X1-Adafruit_BQ24074-eagle-import JP 0 40 Y Y 1 L N
+DEF HEADER-1X1-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue JP 0 40 Y Y 1 L N
 F0 "JP" -250 125 59 H V L BNN
-F1 "HEADER-1X1-Adafruit_BQ24074-eagle-import" -250 -200 59 H V L BNN
+F1 "HEADER-1X1-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -250 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3087,11 +3087,11 @@ X 1 1 -100 0 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# HEADER-1X1176MIL-Adafruit_BQ24074-eagle-import
+# HEADER-1X1176MIL-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF HEADER-1X1176MIL-Adafruit_BQ24074-eagle-import JP 0 40 Y Y 1 L N
+DEF HEADER-1X1176MIL-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue JP 0 40 Y Y 1 L N
 F0 "JP" -250 625 59 H V L BNN
-F1 "HEADER-1X1176MIL-Adafruit_BQ24074-eagle-import" -250 -700 59 H V L BNN
+F1 "HEADER-1X1176MIL-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -250 -700 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3113,11 +3113,11 @@ X 9 9 -100 -300 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# HEADER-1X2ROUND-Adafruit_BQ24074-eagle-import
+# HEADER-1X2ROUND-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF HEADER-1X2ROUND-Adafruit_BQ24074-eagle-import JP 0 40 Y Y 1 L N
+DEF HEADER-1X2ROUND-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue JP 0 40 Y Y 1 L N
 F0 "JP" -250 225 59 H V L BNN
-F1 "HEADER-1X2ROUND-Adafruit_BQ24074-eagle-import" -250 -200 59 H V L BNN
+F1 "HEADER-1X2ROUND-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -250 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3130,11 +3130,11 @@ X 2 2 -100 0 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# JST_2PIN-SMT-RA-Adafruit_BQ24074-eagle-import
+# JST_2PIN-SMT-RA-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF JST_2PIN-SMT-RA-Adafruit_BQ24074-eagle-import CN 0 40 Y Y 1 L N
+DEF JST_2PIN-SMT-RA-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue CN 0 40 Y Y 1 L N
 F0 "CN" -250 225 59 H V L BNN
-F1 "JST_2PIN-SMT-RA-Adafruit_BQ24074-eagle-import" -250 -200 59 H V L BNN
+F1 "JST_2PIN-SMT-RA-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -250 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3147,11 +3147,11 @@ X 1 2 -100 100 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
-# LED0603-Adafruit_BQ24074-eagle-import
+# LED0603-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF LED0603-Adafruit_BQ24074-eagle-import D 0 40 Y Y 1 L N
+DEF LED0603-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue D 0 40 Y Y 1 L N
 F0 "D" -50 175 42 H V C CNN
-F1 "LED0603-Adafruit_BQ24074-eagle-import" -50 -110 42 H V C CNN
+F1 "LED0603-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -50 -110 42 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3173,11 +3173,11 @@ X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MOUNTINGHOLE2.5-Adafruit_BQ24074-eagle-import
+# MOUNTINGHOLE2.5-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF MOUNTINGHOLE2.5-Adafruit_BQ24074-eagle-import ~ 0 40 Y Y 1 L N
+DEF MOUNTINGHOLE2.5-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
-F1 "MOUNTINGHOLE2.5-Adafruit_BQ24074-eagle-import" 0 0 50 H I C CNN
+F1 "MOUNTINGHOLE2.5-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3186,11 +3186,11 @@ C 0 0 100 1 0 10 N
 ENDDRAW
 ENDDEF
 #
-# RESISTOR_0603_NOOUT-Adafruit_BQ24074-eagle-import
+# RESISTOR_0603_NOOUT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF RESISTOR_0603_NOOUT-Adafruit_BQ24074-eagle-import R 0 40 Y Y 1 L N
+DEF RESISTOR_0603_NOOUT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue R 0 40 Y Y 1 L N
 F0 "R" 0 100 50 H V C CNN
-F1 "RESISTOR_0603_NOOUT-Adafruit_BQ24074-eagle-import" 0 0 40 H V C CNB
+F1 "RESISTOR_0603_NOOUT-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" 0 0 40 H V C CNB
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3203,11 +3203,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# SOLDERJUMPER-Adafruit_BQ24074-eagle-import
+# SOLDERJUMPER-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF SOLDERJUMPER-Adafruit_BQ24074-eagle-import SJ 0 40 Y Y 1 L N
+DEF SOLDERJUMPER-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue SJ 0 40 Y Y 1 L N
 F0 "SJ" -100 100 42 H V L BNN
-F1 "SOLDERJUMPER-Adafruit_BQ24074-eagle-import" -100 -150 42 H V L BNN
+F1 "SOLDERJUMPER-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -100 -150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3220,11 +3220,11 @@ X 2 2 200 0 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# SOLDERJUMPERCLOSED-Adafruit_BQ24074-eagle-import
+# SOLDERJUMPERCLOSED-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF SOLDERJUMPERCLOSED-Adafruit_BQ24074-eagle-import SJ 0 40 Y Y 1 L N
+DEF SOLDERJUMPERCLOSED-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue SJ 0 40 Y Y 1 L N
 F0 "SJ" -100 100 42 H V L BNN
-F1 "SOLDERJUMPERCLOSED-Adafruit_BQ24074-eagle-import" -100 -150 42 H V L BNN
+F1 "SOLDERJUMPERCLOSED-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -100 -150 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3237,11 +3237,11 @@ X 2 2 200 0 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# SOLDERJUMPER_2WAY-Adafruit_BQ24074-eagle-import
+# SOLDERJUMPER_2WAY-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF SOLDERJUMPER_2WAY-Adafruit_BQ24074-eagle-import SJ 0 40 Y Y 1 L N
+DEF SOLDERJUMPER_2WAY-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue SJ 0 40 Y Y 1 L N
 F0 "SJ" -200 -150 59 H V L BNN
-F1 "SOLDERJUMPER_2WAY-Adafruit_BQ24074-eagle-import" -200 -250 59 H V L BNN
+F1 "SOLDERJUMPER_2WAY-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -200 -250 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3257,11 +3257,11 @@ X 3 3 100 0 0 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# USB_C-Adafruit_BQ24074-eagle-import
+# USB_C-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF USB_C-Adafruit_BQ24074-eagle-import X 0 40 Y Y 1 L N
+DEF USB_C-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue X 0 40 Y Y 1 L N
 F0 "X" -400 540 42 H V L BNN
-F1 "USB_C-Adafruit_BQ24074-eagle-import" -400 -600 42 H V L BNN
+F1 "USB_C-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -400 -600 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3307,11 +3307,11 @@ X SBU2 B8 400 -200 100 L 0 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# VBUS-Adafruit_BQ24074-eagle-import
+# VBUS-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF VBUS-Adafruit_BQ24074-eagle-import ~ 0 40 Y Y 1 L P
+DEF VBUS-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue ~ 0 40 Y Y 1 L P
 F0 "" 0 0 50 H I C CNN
-F1 "VBUS-Adafruit_BQ24074-eagle-import" -60 40 42 H V L BNN
+F1 "VBUS-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -60 40 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3321,11 +3321,11 @@ X VBUS 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# VLIPO-Adafruit_BQ24074-eagle-import
+# VLIPO-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue
 #
-DEF VLIPO-Adafruit_BQ24074-eagle-import ~ 0 40 Y Y 1 L P
+DEF VLIPO-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue ~ 0 40 Y Y 1 L P
 F0 "" 0 0 50 H I C CNN
-F1 "VLIPO-Adafruit_BQ24074-eagle-import" -60 40 42 H V L BNN
+F1 "VLIPO-Adafruit_BQ24074-eagle-import-Adafruit_BQ24074-rescue" -60 40 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

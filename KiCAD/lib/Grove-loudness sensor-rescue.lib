@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C-0603-Grove-loudness_sensor-eagle-import
+# C-0603-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF C-0603-Grove-loudness_sensor-eagle-import C 0 40 Y Y 1 L N
+DEF C-0603-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue C 0 40 Y Y 1 L N
 F0 "C" -150 0 42 H V L BNN
-F1 "C-0603-Grove-loudness_sensor-eagle-import" 0 0 42 H V L BNN
+F1 "C-0603-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" 0 0 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -20,11 +20,11 @@ X 2 2 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# C-0805-Grove-loudness_sensor-eagle-import
+# C-0805-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF C-0805-Grove-loudness_sensor-eagle-import C 0 40 Y Y 1 L N
+DEF C-0805-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue C 0 40 Y Y 1 L N
 F0 "C" -150 0 42 H V L BNN
-F1 "C-0805-Grove-loudness_sensor-eagle-import" 0 0 42 H V L BNN
+F1 "C-0805-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" 0 0 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -39,11 +39,11 @@ X 2 2 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# LMV358D-Grove-loudness_sensor-eagle-import
+# LMV358D-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF LMV358D-Grove-loudness_sensor-eagle-import U 0 40 Y Y 2 L N
+DEF LMV358D-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue U 0 40 Y Y 2 L N
 F0 "U" -250 250 59 H V L BNN
-F1 "LMV358D-Grove-loudness_sensor-eagle-import" -50 200 59 H I L BNN
+F1 "LMV358D-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" -50 200 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -70,11 +70,11 @@ X OUT2 7 300 0 100 L 50 0 2 0 O
 ENDDRAW
 ENDDEF
 #
-# MICROPHONE-Grove-loudness_sensor-eagle-import
+# MICROPHONE-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF MICROPHONE-Grove-loudness_sensor-eagle-import MIC 0 40 Y Y 1 L N
+DEF MICROPHONE-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue MIC 0 40 Y Y 1 L N
 F0 "MIC" -150 150 59 H V L BNN
-F1 "MICROPHONE-Grove-loudness_sensor-eagle-import" -150 -200 59 H V L BNN
+F1 "MICROPHONE-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" -150 -200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -91,11 +91,11 @@ X - 2 0 -300 100 U 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# R-0603-Grove-loudness_sensor-eagle-import
+# R-0603-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF R-0603-Grove-loudness_sensor-eagle-import R 0 40 Y Y 1 L N
+DEF R-0603-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue R 0 40 Y Y 1 L N
 F0 "R" -150 0 42 H V L BNN
-F1 "R-0603-Grove-loudness_sensor-eagle-import" 0 0 42 H V L BNN
+F1 "R-0603-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" 0 0 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -108,11 +108,11 @@ X 2 2 150 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import
+# R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import R 0 40 Y Y 1 L N
+DEF R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue R 0 40 Y Y 1 L N
 F0 "R" -400 0 59 H V L BNN
-F1 "R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import" 100 0 59 H V L BNN
+F1 "R-POTENTIOMETER'3362'-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" 100 0 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -129,11 +129,11 @@ X 3 3 0 -200 100 U 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import
+# SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import ~ 0 40 Y Y 1 L N
+DEF SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
-F1 "SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import" 0 0 50 H I C CNN
+F1 "SEEEDSTUDIO_SCH_FRAME-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -174,11 +174,11 @@ P 2 1 0 0 10100 1000 10100 1450 N
 ENDDRAW
 ENDDEF
 #
-# SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import
+# SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import U 0 40 Y Y 1 L N
+DEF SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue U 0 40 Y Y 1 L N
 F0 "U" -350 200 59 H V L BNN
-F1 "SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import" 0 200 59 H V L BNN
+F1 "SENSOR-MULPS4CX-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" 0 200 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -201,11 +201,11 @@ X VDD 4 -500 0 100 R 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# TWIG_2.0-Grove-loudness_sensor-eagle-import
+# TWIG_2.0-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue
 #
-DEF TWIG_2.0-Grove-loudness_sensor-eagle-import J 0 40 Y Y 1 L N
+DEF TWIG_2.0-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue J 0 40 Y Y 1 L N
 F0 "J" -70 220 42 H V L BNN
-F1 "TWIG_2.0-Grove-loudness_sensor-eagle-import" -70 -260 42 H V L BNN
+F1 "TWIG_2.0-Grove-loudness_sensor-eagle-import-Grove-loudness-sensor-rescue" -70 -260 42 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

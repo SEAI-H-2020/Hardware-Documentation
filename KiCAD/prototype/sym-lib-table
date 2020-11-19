@@ -1,6 +1,5 @@
 (sym_lib_table
+  (lib (name Adafruit_BQ24074-rescue)(type Legacy)(uri ${KIPRJMOD}/../lib/Adafruit_BQ24074-rescue.lib)(options "")(descr ""))
+  (lib (name Grove-loudness-sensor-rescue)(type Legacy)(uri "${KIPRJMOD}/../lib/Grove-loudness sensor-rescue.lib")(options "")(descr ""))
   (lib (name DHT22)(type Legacy)(uri ${KIPRJMOD}/../lib/DHT22.lib)(options "")(descr ""))
-  (lib (name Adafruit_BQ24074)(type Legacy)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/Adafruit_BQ24074-cache.lib)(options "")(descr "")(disabled))
-  (lib (name BuckConverter)(type Legacy)(uri C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/buck_converter-cache.lib)(options "")(descr "")(disabled))
-  (lib (name SoundSensor)(type Legacy)(uri "C:/Users/Simao/Documents/SEAI/repo/KiCAD/lib/Grove-loudness sensor-cache.lib")(options "")(descr "")(disabled))
 )
