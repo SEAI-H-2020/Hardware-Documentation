@@ -43,8 +43,6 @@ Wire Wire Line
 	5750 2800 5900 2800
 Wire Wire Line
 	5900 2800 5900 3200
-Text Label 3650 3400 0    50   ~ 0
-Vin
 $Comp
 L Device:C C2
 U 1 1 5FAC3F25
@@ -85,32 +83,16 @@ Wire Wire Line
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5FAC5813
-P 4750 4150
-F 0 "#PWR?" H 4750 3900 50  0001 C CNN
-F 1 "GNDREF" H 4755 3977 50  0000 C CNN
-F 2 "" H 4750 4150 50  0001 C CNN
-F 3 "" H 4750 4150 50  0001 C CNN
-	1    4750 4150
+P 4700 4250
+F 0 "#PWR?" H 4700 4000 50  0001 C CNN
+F 1 "GNDREF" H 4705 4077 50  0000 C CNN
+F 2 "" H 4700 4250 50  0001 C CNN
+F 3 "" H 4700 4250 50  0001 C CNN
+	1    4700 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 3950 4700 4050
-Wire Wire Line
-	4700 4150 4750 4150
-Wire Wire Line
-	4700 4050 5050 4050
-Wire Wire Line
-	5100 4050 5100 3800
-Connection ~ 4700 4050
-Wire Wire Line
-	4700 4050 4700 4150
-Wire Wire Line
-	5050 4050 5050 4200
-Wire Wire Line
 	5050 4200 5400 4200
-Connection ~ 5050 4050
-Wire Wire Line
-	5050 4050 5100 4050
 $Comp
 L Device:R R6
 U 1 1 5FAC7B4B
@@ -129,18 +111,6 @@ Wire Wire Line
 Connection ~ 4650 3400
 Wire Wire Line
 	4650 3400 4350 3400
-Wire Wire Line
-	4050 3900 4050 4050
-Wire Wire Line
-	3750 4050 4050 4050
-Connection ~ 4050 4050
-Wire Wire Line
-	4050 4050 4350 4050
-Wire Wire Line
-	4350 3700 4350 4050
-Connection ~ 4350 4050
-Wire Wire Line
-	4350 4050 4700 4050
 Text Label 5000 3500 0    50   ~ 0
 EN
 Connection ~ 5400 4200
@@ -379,12 +349,8 @@ Wire Wire Line
 Wire Wire Line
 	8500 3150 8850 3150
 Connection ~ 8500 3150
-Text Label 8850 3150 0    50   ~ 0
-Vout
 Wire Wire Line
 	5100 3400 4650 3400
-Wire Wire Line
-	3750 3700 3750 4050
 $Comp
 L Device:C C1
 U 1 1 5FAC3568
@@ -401,16 +367,45 @@ Wire Wire Line
 Connection ~ 4350 3400
 Connection ~ 3750 3400
 Wire Wire Line
-	3750 3400 3650 3400
-Wire Wire Line
 	4050 3600 4050 3400
 Connection ~ 4050 3400
 Wire Wire Line
 	4050 3400 3750 3400
-Text HLabel 3650 3400 0    50   Input ~ 0
+Text HLabel 3500 3400 0    50   Input ~ 0
 Vin
-Text HLabel 8850 3150 3    50   Input ~ 0
+Text HLabel 8850 3150 2    50   Input ~ 0
 Vout
-Text HLabel 5950 4200 3    50   Input ~ 0
+Text HLabel 3500 4200 0    50   Input ~ 0
 GND
+Wire Wire Line
+	4700 4200 5050 4200
+Connection ~ 5050 4200
+Wire Wire Line
+	4700 4200 4350 4200
+Connection ~ 4700 4200
+Wire Wire Line
+	4350 4200 4050 4200
+Connection ~ 4350 4200
+Wire Wire Line
+	4050 4200 3750 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	3750 3700 3750 4200
+Wire Wire Line
+	4050 3900 4050 4200
+Wire Wire Line
+	4350 3700 4350 4200
+Wire Wire Line
+	5050 3800 5100 3800
+Wire Wire Line
+	5050 3800 5050 4200
+Wire Wire Line
+	3500 4200 3750 4200
+Connection ~ 3750 4200
+Wire Wire Line
+	3500 3400 3750 3400
+Wire Wire Line
+	4700 3950 4700 4200
+Wire Wire Line
+	4700 4250 4700 4200
 $EndSCHEMATC

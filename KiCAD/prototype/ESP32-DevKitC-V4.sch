@@ -611,8 +611,6 @@ Wire Wire Line
 	6550 2500 6050 2500
 Wire Wire Line
 	6550 2600 6050 2600
-Wire Wire Line
-	6550 2700 6450 2700
 Text Label 6050 900  0    50   ~ 0
 GND
 Text Label 6050 1500 0    50   ~ 0
@@ -1219,11 +1217,8 @@ Wire Wire Line
 	5050 5150 5500 5150
 Wire Wire Line
 	5050 4850 5500 4850
-Text HLabel 6450 3400 0    50   Input ~ 0
-teste1
 Wire Wire Line
-	6450 3400 6450 2700
-Connection ~ 6450 2700
-Wire Wire Line
-	6450 2700 6050 2700
+	6050 2700 6550 2700
+Text Label 8600 4350 0    50   ~ 0
+EN
 $EndSCHEMATC
