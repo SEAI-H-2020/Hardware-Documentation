@@ -1,0 +1,427 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "ESP32-DevKitC-V4"
+Date "2020-10-23"
+Rev "0.0"
+Comp "Faculdade de Engenharia da Universidade do Porto"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP32-WROOM-32 U?
+U 1 1 5F93B762
+P 8200 3700
+F 0 "U?" H 7750 5050 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 8600 5050 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 8200 2200 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 7900 3750 50  0001 C CNN
+	1    8200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F9419AA
+P 6950 4550
+F 0 "#PWR?" H 6950 4400 50  0001 C CNN
+F 1 "+3V3" H 6965 4723 50  0000 C CNN
+F 2 "" H 6950 4550 50  0001 C CNN
+F 3 "" H 6950 4550 50  0001 C CNN
+	1    6950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F94208F
+P 6950 4800
+F 0 "R?" H 7020 4846 50  0000 L CNN
+F 1 "10kR" H 7020 4755 50  0000 L CNN
+F 2 "" V 6880 4800 50  0001 C CNN
+F 3 "~" H 6950 4800 50  0001 C CNN
+	1    6950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9429EB
+P 6950 5200
+F 0 "C?" H 7065 5246 50  0000 L CNN
+F 1 "0.1uF" H 7065 5155 50  0000 L CNN
+F 2 "" H 6988 5050 50  0001 C CNN
+F 3 "~" H 6950 5200 50  0001 C CNN
+F 4 "50V" H 7065 5155 50  0001 L CNN "Voltage"
+F 5 "10%" H 7065 5064 50  0001 L CNN "Tolerance"
+	1    6950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F942C61
+P 6950 5450
+F 0 "#PWR?" H 6950 5200 50  0001 C CNN
+F 1 "GND" H 6955 5277 50  0000 C CNN
+F 2 "" H 6950 5450 50  0001 C CNN
+F 3 "" H 6950 5450 50  0001 C CNN
+	1    6950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5450 6950 5350
+Wire Wire Line
+	6950 4650 6950 4550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F943FB0
+P 8850 1600
+F 0 "#PWR?" H 8850 1450 50  0001 C CNN
+F 1 "+3V3" H 8865 1773 50  0000 C CNN
+F 2 "" H 8850 1600 50  0001 C CNN
+F 3 "" H 8850 1600 50  0001 C CNN
+	1    8850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9451F0
+P 9300 1850
+F 0 "C?" H 9415 1896 50  0000 L CNN
+F 1 "0.1uF" H 9415 1805 50  0000 L CNN
+F 2 "" H 9338 1700 50  0001 C CNN
+F 3 "~" H 9300 1850 50  0001 C CNN
+F 4 "50V" H 9415 1759 50  0001 L CNN "Voltage"
+	1    9300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F946123
+P 8850 1850
+F 0 "C?" H 8965 1896 50  0000 L CNN
+F 1 "22uF" H 8965 1805 50  0000 L CNN
+F 2 "" H 8888 1700 50  0001 C CNN
+F 3 "~" H 8850 1850 50  0001 C CNN
+F 4 "10V" H 8965 1759 50  0001 L CNN "Voltage"
+	1    8850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1700 8850 1650
+Wire Wire Line
+	8850 1650 9300 1650
+Wire Wire Line
+	9300 1650 9300 1700
+Connection ~ 8850 1650
+Wire Wire Line
+	8850 1650 8850 1600
+Wire Wire Line
+	9300 2000 9300 2050
+Wire Wire Line
+	9300 2050 8850 2050
+Wire Wire Line
+	8850 2050 8850 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5F947B11
+P 9300 2100
+F 0 "#PWR?" H 9300 1850 50  0001 C CNN
+F 1 "GND" H 9305 1927 50  0000 C CNN
+F 2 "" H 9300 2100 50  0001 C CNN
+F 3 "" H 9300 2100 50  0001 C CNN
+	1    9300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2300 8200 1650
+Wire Wire Line
+	8200 1650 8850 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5F95286C
+P 8200 5200
+F 0 "#PWR?" H 8200 4950 50  0001 C CNN
+F 1 "GND" H 8205 5027 50  0000 C CNN
+F 2 "" H 8200 5200 50  0001 C CNN
+F 3 "" H 8200 5200 50  0001 C CNN
+	1    8200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5100 8200 5200
+Wire Wire Line
+	8800 2600 9350 2600
+Wire Wire Line
+	8800 2800 9350 2800
+Wire Notes Line
+	6600 1350 9750 1350
+Wire Notes Line
+	9750 5750 6600 5750
+Text Notes 6600 1300 0    50   ~ 0
+ESP32 Module
+$Comp
+L power:GND #PWR?
+U 1 1 5F958154
+P 2300 4000
+F 0 "#PWR?" H 2300 3750 50  0001 C CNN
+F 1 "GND" H 2305 3827 50  0000 C CNN
+F 2 "" H 2300 4000 50  0001 C CNN
+F 3 "" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9586F2
+P 2700 3800
+F 0 "C?" V 2952 3800 50  0000 C CNN
+F 1 "0.1uF" V 2861 3800 50  0000 C CNN
+F 2 "" H 2738 3650 50  0001 C CNN
+F 3 "~" H 2700 3800 50  0001 C CNN
+F 4 "50V" V 2700 3800 50  0001 C CNN "Voltage"
+	1    2700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3800 2300 3800
+Wire Wire Line
+	2300 3800 2300 4000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F9596F6
+P 2700 3400
+F 0 "SW?" H 2700 3685 50  0000 C CNN
+F 1 "BOOT" H 2700 3594 50  0000 C CNN
+F 2 "" H 2700 3600 50  0001 C CNN
+F 3 "~" H 2700 3600 50  0001 C CNN
+	1    2700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3400 2300 3400
+Wire Wire Line
+	2300 3400 2300 3800
+Connection ~ 2300 3800
+Wire Wire Line
+	2850 3800 3100 3800
+Wire Wire Line
+	3100 3800 3100 3400
+Wire Wire Line
+	3100 3400 2900 3400
+Text Label 3350 3400 0    50   ~ 0
+IO0
+Wire Wire Line
+	8800 2500 9350 2500
+Wire Wire Line
+	3100 3400 3350 3400
+Connection ~ 3100 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5F960D2F
+P 3850 4000
+F 0 "#PWR?" H 3850 3750 50  0001 C CNN
+F 1 "GND" H 3855 3827 50  0000 C CNN
+F 2 "" H 3850 4000 50  0001 C CNN
+F 3 "" H 3850 4000 50  0001 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F960D36
+P 4250 3800
+F 0 "C?" V 4502 3800 50  0000 C CNN
+F 1 "0.1uF" V 4411 3800 50  0000 C CNN
+F 2 "" H 4288 3650 50  0001 C CNN
+F 3 "~" H 4250 3800 50  0001 C CNN
+F 4 "50V" V 4250 3800 50  0001 C CNN "Voltage"
+	1    4250 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3800 3850 3800
+Wire Wire Line
+	3850 3800 3850 4000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F960D3E
+P 4250 3400
+F 0 "SW?" H 4250 3685 50  0000 C CNN
+F 1 "EN" H 4250 3594 50  0000 C CNN
+F 2 "" H 4250 3600 50  0001 C CNN
+F 3 "~" H 4250 3600 50  0001 C CNN
+	1    4250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3400 3850 3400
+Wire Wire Line
+	3850 3400 3850 3800
+Connection ~ 3850 3800
+Wire Wire Line
+	4400 3800 4650 3800
+Wire Wire Line
+	4650 3800 4650 3400
+Wire Wire Line
+	4650 3400 4450 3400
+Text Label 4900 3400 0    50   ~ 0
+EN
+Wire Wire Line
+	4650 3400 4900 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	6950 4950 6950 5000
+Connection ~ 6950 5000
+Wire Wire Line
+	6950 5000 6950 5050
+Wire Wire Line
+	6950 5000 7350 5000
+Wire Notes Line
+	2000 3000 5150 3000
+Wire Notes Line
+	5150 3000 5150 4350
+Wire Notes Line
+	5150 4350 2000 4350
+Wire Notes Line
+	2000 4350 2000 3000
+Text Notes 2000 2950 0    50   ~ 0
+Switch Button
+Wire Wire Line
+	8800 2900 9350 2900
+Wire Wire Line
+	8800 2700 9350 2700
+Wire Wire Line
+	8800 3000 9350 3000
+Wire Wire Line
+	8800 3100 9350 3100
+Wire Wire Line
+	8800 3200 9350 3200
+Wire Wire Line
+	8800 3300 9350 3300
+Wire Wire Line
+	8800 3400 9350 3400
+Wire Wire Line
+	8800 3500 9350 3500
+Wire Wire Line
+	8800 3600 9350 3600
+Wire Wire Line
+	8800 3700 9350 3700
+Wire Wire Line
+	8800 3800 9350 3800
+Wire Wire Line
+	8800 3900 9350 3900
+Wire Wire Line
+	8800 4000 9350 4000
+Wire Wire Line
+	8800 4100 9350 4100
+Wire Wire Line
+	8800 4200 9350 4200
+Wire Wire Line
+	8800 4300 9350 4300
+Wire Wire Line
+	8800 4400 9350 4400
+Wire Wire Line
+	8800 4500 9350 4500
+Wire Wire Line
+	8800 4600 9350 4600
+Wire Wire Line
+	8800 4700 9350 4700
+Wire Wire Line
+	8800 4800 9350 4800
+Text HLabel 9350 2500 2    50   Input ~ 0
+IO0
+Text HLabel 9350 2600 2    50   Input ~ 0
+TXD0
+Text HLabel 9350 2700 2    50   Input ~ 0
+IO2
+Text HLabel 9350 2800 2    50   Input ~ 0
+RXD0
+Text HLabel 9350 2900 2    50   Input ~ 0
+IO4
+Text HLabel 9350 3000 2    50   Input ~ 0
+IO5
+Text HLabel 9350 3100 2    50   Input ~ 0
+IO12
+Text HLabel 9350 3200 2    50   Input ~ 0
+IO13
+Text HLabel 9350 3300 2    50   Input ~ 0
+IO14
+Text HLabel 9350 3400 2    50   Input ~ 0
+IO15
+Text HLabel 9350 3500 2    50   Input ~ 0
+IO16
+Text HLabel 9350 3600 2    50   Input ~ 0
+IO17
+Text HLabel 9350 3700 2    50   Input ~ 0
+IO18
+Text HLabel 9350 3800 2    50   Input ~ 0
+IO19
+Text HLabel 9350 3900 2    50   Input ~ 0
+IO21
+Text HLabel 9350 4000 2    50   Input ~ 0
+IO22
+Text HLabel 9350 4100 2    50   Input ~ 0
+IO23
+Text HLabel 9350 4200 2    50   Input ~ 0
+IO25
+Text HLabel 9350 4300 2    50   Input ~ 0
+IO26
+Text HLabel 9350 4400 2    50   Input ~ 0
+IO27
+Text HLabel 9350 4500 2    50   Input ~ 0
+IO32
+Text HLabel 9350 4600 2    50   Input ~ 0
+IO33
+Text HLabel 9350 4700 2    50   Input ~ 0
+IO34
+Text HLabel 9350 4800 2    50   Input ~ 0
+IO35
+Text HLabel 7200 2700 0    50   Input ~ 0
+SENSOR_VP
+Text HLabel 7200 2800 0    50   Input ~ 0
+SENSOR_VN
+Text HLabel 7200 3700 0    50   Input ~ 0
+SD0
+Text HLabel 7200 3800 0    50   Input ~ 0
+SD1
+Text HLabel 7200 3900 0    50   Input ~ 0
+SD2
+Text HLabel 7200 4000 0    50   Input ~ 0
+SD3
+Text HLabel 7200 4100 0    50   Input ~ 0
+CLK
+Text HLabel 7200 4200 0    50   Input ~ 0
+CMD
+Wire Notes Line
+	9750 1350 9750 5750
+Wire Notes Line
+	6600 1350 6600 5750
+Wire Wire Line
+	7600 2700 7200 2700
+Wire Wire Line
+	7200 2800 7600 2800
+Wire Wire Line
+	7600 3700 7200 3700
+Wire Wire Line
+	7600 3800 7200 3800
+Wire Wire Line
+	7600 3900 7200 3900
+Wire Wire Line
+	7600 4000 7200 4000
+Wire Wire Line
+	7600 4100 7200 4100
+Wire Wire Line
+	7600 4200 7200 4200
+Text HLabel 7200 2500 0    50   Input ~ 0
+EN
+Wire Wire Line
+	7200 2500 7600 2500
+Wire Wire Line
+	9300 2100 9300 2050
+Connection ~ 9300 2050
+Text Label 7350 5000 0    50   ~ 0
+EN
+$EndSCHEMATC

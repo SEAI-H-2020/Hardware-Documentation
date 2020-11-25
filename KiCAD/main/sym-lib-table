@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Adafruit_BQ24074-rescue)(type Legacy)(uri ${KIPRJMOD}/../lib/Adafruit_BQ24074-rescue.lib)(options "")(descr ""))
+  (lib (name Grove-loudness-sensor-rescue)(type Legacy)(uri "${KIPRJMOD}/../lib/Grove-loudness sensor-rescue.lib")(options Legacy)(descr ""))
+  (lib (name DHT22)(type Legacy)(uri ${KIPRJMOD}/../lib/DHT22.lib)(options "")(descr ""))
+)
