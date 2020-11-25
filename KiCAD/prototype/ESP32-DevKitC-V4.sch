@@ -1219,4 +1219,6 @@ Wire Wire Line
 	5050 4850 5500 4850
 Wire Wire Line
 	6050 2700 6550 2700
+Text Label 8600 4350 0    50   ~ 0
+EN
 $EndSCHEMATC
