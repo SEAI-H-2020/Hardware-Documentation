@@ -14,46 +14,29 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2450 3450 550  550 
-U 5FAFBD3D
-F0 "SoundSensor" 50
-F1 "SoundSensor.sch" 50
-F2 "GND" I R 3000 3850 50 
-F3 "VCC" I R 3000 3700 50 
-F4 "Signal" I R 3000 3550 50 
-$EndSheet
-$Sheet
-S 2450 4350 500  500 
+S 2450 4350 550  500 
 U 5FB0CF58
 F0 "BuckConverter" 50
 F1 "BuckConverter.sch" 50
-F2 "Vin" I R 2950 4600 50 
-F3 "Vout" I R 2950 4450 50 
-F4 "GND" I R 2950 4750 50 
+F2 "Vin" I R 3000 4600 50 
+F3 "Vout" I R 3000 4450 50 
+F4 "GND" I R 3000 4750 50 
 $EndSheet
-Wire Wire Line
-	6650 2700 6900 2700
 Wire Wire Line
 	3000 3700 3350 3700
 Text Label 3350 3700 0    50   ~ 0
 VDD
-Text Label 6900 2700 0    50   ~ 0
+Text Label 6950 2700 0    50   ~ 0
 VDD
-Wire Wire Line
-	2950 4450 3300 4450
 Text Label 3300 4450 0    50   ~ 0
 VDD
-Wire Wire Line
-	2950 4600 3300 4600
 Text Label 3300 4600 0    50   ~ 0
 Vin_Buck
 Wire Wire Line
 	3000 3850 3350 3850
 Wire Wire Line
-	2950 4750 3300 4750
-Wire Wire Line
 	5400 3300 5100 3300
-Text Label 5100 3300 0    50   ~ 0
+Text Label 5100 3300 2    50   ~ 0
 GND
 Text Label 3300 4750 0    50   ~ 0
 GND
@@ -70,20 +53,20 @@ Sound_Signal
 $Comp
 L DHT22:DHT22 IC?
 U 1 1 5FB3BE3A
-P 8450 3550
-F 0 "IC?" H 8792 2985 50  0000 C CNN
-F 1 "DHT22" H 8792 3076 50  0000 C CNN
-F 2 "DHT22" H 9200 3650 50  0001 L CNN
-F 3 "https://datasheet4u.com/datasheet-parts/DHT22-datasheet.php?id=792211" H 9200 3550 50  0001 L CNN
-F 4 "Digital-output relative humidity & temperature sensor/module DHT22" H 9200 3450 50  0001 L CNN "Description"
-F 5 "25.1" H 9200 3350 50  0001 L CNN "Height"
-F 6 "Aosong Electronics" H 9200 3250 50  0001 L CNN "Manufacturer_Name"
-F 7 "DHT22" H 9200 3150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 9200 3050 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 9200 2950 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 9200 2850 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 9200 2750 50  0001 L CNN "Mouser Price/Stock"
-	1    8450 3550
+P 8650 3550
+F 0 "IC?" H 8992 2985 50  0000 C CNN
+F 1 "DHT22" H 8992 3076 50  0000 C CNN
+F 2 "DHT22" H 9400 3650 50  0001 L CNN
+F 3 "https://datasheet4u.com/datasheet-parts/DHT22-datasheet.php?id=792211" H 9400 3550 50  0001 L CNN
+F 4 "Digital-output relative humidity & temperature sensor/module DHT22" H 9400 3450 50  0001 L CNN "Description"
+F 5 "25.1" H 9400 3350 50  0001 L CNN "Height"
+F 6 "Aosong Electronics" H 9400 3250 50  0001 L CNN "Manufacturer_Name"
+F 7 "DHT22" H 9400 3150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 9400 3050 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 9400 2950 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 9400 2850 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 9400 2750 50  0001 L CNN "Mouser Price/Stock"
+	1    8650 3550
 	1    0    0    -1  
 $EndComp
 Text Label 8450 3850 2    50   ~ 0
@@ -106,8 +89,6 @@ F3 "COM" I L 8650 2900 50
 $EndSheet
 Wire Wire Line
 	8650 2750 8400 2750
-Wire Wire Line
-	8650 2900 8400 2900
 Wire Wire Line
 	8400 2750 8400 2600
 $Comp
@@ -135,13 +116,11 @@ $EndComp
 Wire Wire Line
 	8400 2750 8250 2750
 Connection ~ 8400 2750
-Text Label 8400 2900 2    50   ~ 0
+Text Label 8250 2900 2    50   ~ 0
 VDD
 Text Label 8250 2750 2    50   ~ 0
 Anemometer_Out
-Wire Wire Line
-	5400 3000 5150 3000
-Text Label 5150 3000 2    50   ~ 0
+Text Label 5100 3000 2    50   ~ 0
 Anemometer_Out
 $Sheet
 S 2450 2300 700  600 
@@ -184,10 +163,45 @@ S 5400 2550 1250 900
 U 5F928E95
 F0 "Microcontroller" 50
 F1 "Microcontroller.sch" 50
-F14 "IO18" I L 5400 3000 50 
-F24 "IO34" I R 6650 3150 50 
-F25 "IO35" I R 6650 3000 50 
-F35 "VDD33" I R 6650 2700 50 
-F36 "GND" I L 5400 3300 50 
+F2 "IO18" I L 5400 3000 50 
+F3 "IO34" I R 6650 3150 50 
+F4 "IO35" I R 6650 3000 50 
+F5 "VDD33" I R 6650 2700 50 
+F6 "GND" I L 5400 3300 50 
 $EndSheet
+NoConn ~ 2150 2400
+NoConn ~ 2150 2500
+NoConn ~ 2150 2600
+NoConn ~ 2150 2700
+NoConn ~ 2150 2800
+Wire Wire Line
+	5100 3000 5400 3000
+Wire Wire Line
+	6950 2700 6650 2700
+Wire Wire Line
+	8250 2900 8650 2900
+Wire Wire Line
+	8450 3550 8650 3550
+Wire Wire Line
+	8650 3650 8450 3650
+Wire Wire Line
+	8650 3850 8450 3850
+NoConn ~ 8550 3750
+Wire Wire Line
+	8650 3750 8550 3750
+$Sheet
+S 2450 3450 550  550 
+U 5FAFBD3D
+F0 "SoundSensor" 50
+F1 "SoundSensor.sch" 50
+F2 "GND" I R 3000 3850 50 
+F3 "VCC" I R 3000 3700 50 
+F4 "Signal" I R 3000 3550 50 
+$EndSheet
+Wire Wire Line
+	3000 4450 3300 4450
+Wire Wire Line
+	3300 4600 3000 4600
+Wire Wire Line
+	3000 4750 3300 4750
 $EndSCHEMATC
