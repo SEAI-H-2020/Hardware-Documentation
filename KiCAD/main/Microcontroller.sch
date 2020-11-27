@@ -411,4 +411,47 @@ Text Label 9350 2800 0    50   ~ 0
 RXD0
 Text Label 9350 2600 0    50   ~ 0
 TXD0
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 5FC4BA04
+P 1650 4500
+F 0 "J?" H 1700 4817 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1700 4726 50  0000 C CNN
+F 2 "" H 1650 4500 50  0001 C CNN
+F 3 "~" H 1650 4500 50  0001 C CNN
+	1    1650 4500
+	1    0    0    -1  
+$EndComp
+Text Label 1250 4500 2    50   ~ 0
+IO0
+Wire Wire Line
+	1250 4400 1450 4400
+Wire Wire Line
+	1950 4400 2150 4400
+Wire Wire Line
+	1950 4500 2150 4500
+Wire Wire Line
+	1950 4600 2150 4600
+Wire Wire Line
+	1950 4700 2150 4700
+Wire Wire Line
+	1450 4500 1250 4500
+Wire Wire Line
+	1450 4600 1250 4600
+Wire Wire Line
+	1450 4700 1250 4700
+Text Label 1250 4400 2    50   ~ 0
+RXD0
+Text Label 1250 4600 2    50   ~ 0
+IO2
+Text Label 1250 4700 2    50   ~ 0
+GND
+Text Label 2150 4400 0    50   ~ 0
+VDD33
+Text Label 2150 4500 0    50   ~ 0
+RESET
+Text Label 2150 4600 0    50   ~ 0
+EN
+Text Label 2150 4700 0    50   ~ 0
+TXD0
 $EndSCHEMATC
