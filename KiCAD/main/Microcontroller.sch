@@ -240,7 +240,7 @@ L Switch:SW_Push SW?
 U 1 1 5F960D3E
 P 3050 1200
 F 0 "SW?" H 3050 1485 50  0000 C CNN
-F 1 "EN" H 3050 1394 50  0000 C CNN
+F 1 "RESET" H 3050 1394 50  0000 C CNN
 F 2 "" H 3050 1400 50  0001 C CNN
 F 3 "~" H 3050 1400 50  0001 C CNN
 	1    3050 1200
@@ -288,8 +288,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 3600 9350 3600
 Wire Wire Line
-	8800 3700 9350 3700
-Wire Wire Line
 	8800 3800 9350 3800
 Wire Wire Line
 	8800 3900 9350 3900
@@ -311,7 +309,7 @@ Wire Wire Line
 	8800 4700 9350 4700
 Wire Wire Line
 	8800 4800 9350 4800
-Text HLabel 9350 3700 2    50   Input ~ 0
+Text HLabel 9550 3700 2    50   Input ~ 0
 IO18
 Text HLabel 9350 4700 2    50   Input ~ 0
 IO34
@@ -454,4 +452,14 @@ Text Label 2150 4600 0    50   ~ 0
 EN
 Text Label 2150 4700 0    50   ~ 0
 TXD0
+Text Notes 2500 4550 0    50   ~ 0
+We can leave RESET and EN unconnected and\nuse the pushbuttons for manual programming mode
+Wire Notes Line
+	2400 4400 2450 4400
+Wire Notes Line
+	2450 4400 2450 4600
+Wire Notes Line
+	2450 4600 2400 4600
+Wire Wire Line
+	8800 3700 9550 3700
 $EndSCHEMATC
