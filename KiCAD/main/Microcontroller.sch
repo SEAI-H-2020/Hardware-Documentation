@@ -140,16 +140,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F95286C
-P 8200 5200
-F 0 "#PWR?" H 8200 4950 50  0001 C CNN
-F 1 "GND" H 8205 5027 50  0000 C CNN
-F 2 "" H 8200 5200 50  0001 C CNN
-F 3 "" H 8200 5200 50  0001 C CNN
-	1    8200 5200
+P 8200 5300
+F 0 "#PWR?" H 8200 5050 50  0001 C CNN
+F 1 "GND" H 8205 5127 50  0000 C CNN
+F 2 "" H 8200 5300 50  0001 C CNN
+F 3 "" H 8200 5300 50  0001 C CNN
+	1    8200 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 5100 8200 5200
 Wire Wire Line
 	8800 2600 9350 2600
 Wire Wire Line
@@ -365,36 +363,10 @@ Text HLabel 7200 2700 0    50   Input ~ 0
 SENSOR_VP
 Text HLabel 7200 2800 0    50   Input ~ 0
 SENSOR_VN
-Text HLabel 7200 3700 0    50   Input ~ 0
-SD0
-Text HLabel 7200 3800 0    50   Input ~ 0
-SD1
-Text HLabel 7200 3900 0    50   Input ~ 0
-SD2
-Text HLabel 7200 4000 0    50   Input ~ 0
-SD3
-Text HLabel 7200 4100 0    50   Input ~ 0
-CLK
-Text HLabel 7200 4200 0    50   Input ~ 0
-CMD
 Wire Wire Line
 	7600 2700 7200 2700
 Wire Wire Line
 	7200 2800 7600 2800
-Wire Wire Line
-	7600 3700 7200 3700
-Wire Wire Line
-	7600 3800 7200 3800
-Wire Wire Line
-	7600 3900 7200 3900
-Wire Wire Line
-	7600 4000 7200 4000
-Wire Wire Line
-	7600 4100 7200 4100
-Wire Wire Line
-	7600 4200 7200 4200
-Text HLabel 7200 2500 0    50   Input ~ 0
-EN
 Wire Wire Line
 	7200 2500 7600 2500
 Text Label 1500 3100 0    50   ~ 0
@@ -410,4 +382,33 @@ Wire Wire Line
 Wire Wire Line
 	7800 1650 8200 1650
 Connection ~ 8200 1650
+Wire Wire Line
+	7600 4200 7200 4200
+Wire Wire Line
+	7600 4100 7200 4100
+Wire Wire Line
+	7600 4000 7200 4000
+Wire Wire Line
+	7600 3900 7200 3900
+Wire Wire Line
+	7600 3800 7200 3800
+Wire Wire Line
+	7600 3700 7200 3700
+NoConn ~ 7200 3700
+NoConn ~ 7200 3800
+NoConn ~ 7200 3900
+NoConn ~ 7200 4000
+NoConn ~ 7200 4100
+NoConn ~ 7200 4200
+Wire Wire Line
+	8200 5100 8200 5200
+Wire Wire Line
+	8200 5200 8350 5200
+Connection ~ 8200 5200
+Wire Wire Line
+	8200 5200 8200 5300
+Text HLabel 8350 5200 2    50   Input ~ 0
+GND
+Text HLabel 7200 2500 0    50   Input ~ 0
+EN
 $EndSCHEMATC
