@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -13,38 +13,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2450 4350 550  500 
-U 5FB0CF58
-F0 "BuckConverter" 50
-F1 "BuckConverter.sch" 50
-F2 "Vin" I R 3000 4600 50 
-F3 "Vout" I R 3000 4450 50 
-F4 "GND" I R 3000 4750 50 
-$EndSheet
-Wire Wire Line
-	3000 3700 3350 3700
-Text Label 3350 3700 0    50   ~ 0
+Text Label 3300 3750 0    50   ~ 0
 VDD
 Text Label 6950 2700 0    50   ~ 0
 VDD
-Text Label 3300 4450 0    50   ~ 0
+Text Label 3300 4750 0    50   ~ 0
 VDD
-Text Label 3300 4600 0    50   ~ 0
+Text Label 3300 4550 0    50   ~ 0
 Vin_Buck
-Wire Wire Line
-	3000 3850 3350 3850
 Wire Wire Line
 	5400 3300 5100 3300
 Text Label 5100 3300 2    50   ~ 0
 GND
-Text Label 3300 4750 0    50   ~ 0
+Text Label 3300 4650 0    50   ~ 0
 GND
-Text Label 3350 3850 0    50   ~ 0
+Text Label 3300 3850 0    50   ~ 0
 GND
-Wire Wire Line
-	3000 3550 3350 3550
-Text Label 3350 3550 0    50   ~ 0
+Text Label 3300 3550 0    50   ~ 0
 Sound_Signal
 Wire Wire Line
 	6650 3150 6950 3150
@@ -189,19 +174,44 @@ Wire Wire Line
 NoConn ~ 8550 3750
 Wire Wire Line
 	8650 3750 8550 3750
-$Sheet
-S 2450 3450 550  550 
-U 5FAFBD3D
-F0 "SoundSensor" 50
-F1 "SoundSensor.sch" 50
-F2 "GND" I R 3000 3850 50 
-F3 "VCC" I R 3000 3700 50 
-F4 "Signal" I R 3000 3550 50 
-$EndSheet
-Wire Wire Line
-	3000 4450 3300 4450
-Wire Wire Line
-	3300 4600 3000 4600
 Wire Wire Line
 	3000 4750 3300 4750
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5FC4DC93
+P 2800 4550
+F 0 "J?" H 2718 4867 50  0000 C CNN
+F 1 "BuckConverter" H 2718 4776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2800 4550 50  0001 C CNN
+F 3 "~" H 2800 4550 50  0001 C CNN
+	1    2800 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4550 3000 4550
+Wire Wire Line
+	3300 4650 3000 4650
+Wire Wire Line
+	3000 4450 3150 4450
+NoConn ~ 3150 4450
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5FC5154E
+P 2800 3650
+F 0 "J?" H 2718 3967 50  0000 C CNN
+F 1 "Sound Sensor" H 2718 3876 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 2800 3650 50  0001 C CNN
+F 3 "~" H 2800 3650 50  0001 C CNN
+	1    2800 3650
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3150 3650
+Wire Wire Line
+	3300 3850 3000 3850
+Wire Wire Line
+	3000 3750 3300 3750
+Wire Wire Line
+	3150 3650 3000 3650
+Wire Wire Line
+	3000 3550 3300 3550
 $EndSCHEMATC
