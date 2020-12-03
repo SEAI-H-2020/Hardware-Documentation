@@ -458,6 +458,6 @@ Text HLabel 9350 3400 2    50   Input ~ 0
 I015
 Text HLabel 9350 3300 2    50   Input ~ 0
 IO14
-Text Label 9350 3200 0    50   ~ 0
+Text HLabel 9350 3200 2    50   Input ~ 0
 IO13
 $EndSCHEMATC

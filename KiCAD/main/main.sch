@@ -34,48 +34,17 @@ Wire Wire Line
 Text Label 2900 3600 2    50   ~ 0
 Sound_Signal
 Wire Wire Line
-	3200 3750 2900 3750
-Text Label 2900 3750 2    50   ~ 0
-Opto_DHT22_Data
-Wire Wire Line
-	8200 2750 7950 2750
-Wire Wire Line
-	7950 2750 7950 2600
-$Comp
-L Device:R R1
-U 1 1 5FB40072
-P 7950 2450
-F 0 "R1" H 8020 2496 50  0000 L CNN
-F 1 "R" H 8020 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 7880 2450 50  0001 C CNN
-F 3 "~" H 7950 2450 50  0001 C CNN
-	1    7950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5FB404F7
-P 7950 2300
-F 0 "#PWR01" H 7950 2050 50  0001 C CNN
-F 1 "GND" H 7955 2127 50  0000 C CNN
-F 2 "" H 7950 2300 50  0001 C CNN
-F 3 "" H 7950 2300 50  0001 C CNN
-	1    7950 2300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7950 2750 7800 2750
-Connection ~ 7950 2750
-Text Label 7800 2750 2    50   ~ 0
-Anemometer_Out
-Text Label 1450 3000 0    50   ~ 0
+	3200 3450 2900 3450
+Text Label 2900 3450 2    50   ~ 0
+DHT22_Data
+Text Label 1550 2700 0    50   ~ 0
 Vin_Buck
-Text Label 1450 3100 0    50   ~ 0
+Text Label 1550 2800 0    50   ~ 0
 GND
 Wire Wire Line
 	4750 2650 4450 2650
 Wire Wire Line
-	7800 2850 8200 2850
+	9100 2950 9500 2950
 Wire Wire Line
 	1200 3900 1500 3900
 $Comp
@@ -114,72 +83,23 @@ Wire Wire Line
 	1350 1850 1200 1850
 Wire Wire Line
 	1200 1750 1500 1750
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5FC604E2
-P 950 3000
-F 0 "J1" H 868 3217 50  0000 C CNN
-F 1 "Charge Controller" H 868 3126 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 950 3000 50  0001 C CNN
-F 3 "~" H 950 3000 50  0001 C CNN
-	1    950  3000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	1450 3000 1150 3000
+	1550 2700 1250 2700
 Wire Wire Line
-	1450 3100 1150 3100
+	1550 2800 1250 2800
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5FC61584
-P 8400 2750
-F 0 "J4" H 8480 2742 50  0000 L CNN
-F 1 "Anemometer" H 8480 2651 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8400 2750 50  0001 C CNN
-F 3 "~" H 8400 2750 50  0001 C CNN
-	1    8400 2750
+P 9700 2850
+F 0 "J4" H 9780 2842 50  0000 L CNN
+F 1 "Anemometer" H 9780 2751 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 9700 2850 50  0001 C CNN
+F 3 "~" H 9700 2850 50  0001 C CNN
+	1    9700 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Isolator:4N25 U1
-U 1 1 5FC7ABC6
-P 6550 5050
-F 0 "U1" H 6550 5375 50  0000 C CNN
-F 1 "4N25" H 6550 5284 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 6350 4850 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6550 5050 50  0001 L CNN
-	1    6550 5050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5FCA1125
-P 7000 4950
-F 0 "R2" V 6793 4950 50  0000 C CNN
-F 1 "R" V 6884 4950 50  0000 C CNN
-F 2 "" V 6930 4950 50  0001 C CNN
-F 3 "~" H 7000 4950 50  0001 C CNN
-	1    7000 4950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6850 5150 7050 5150
-Text Label 7050 5150 0    50   ~ 0
-GND
-Wire Wire Line
-	7150 4950 7300 4950
-Wire Wire Line
-	6250 5150 6100 5150
-Wire Wire Line
-	6250 5050 6150 5050
-Wire Wire Line
-	6000 5150 6100 5150
-Text Label 6000 5150 2    50   ~ 0
-Opto_DHT22_Data
 Text Label 8800 4400 2    50   ~ 0
 GND
-Text Label 7300 4950 0    50   ~ 0
-DHT22_Data
 Text Label 8800 4200 2    50   ~ 0
 DHT22_Data
 Wire Wire Line
@@ -231,12 +151,13 @@ F16 "IO17" I R 4450 2950 50
 F17 "IO16" I R 4450 2850 50 
 F18 "I015" I L 3200 2650 50 
 F19 "IO14" I L 3200 2800 50 
+F20 "IO13" I L 3200 3450 50 
 $EndSheet
 $Comp
-L 4xxx:4020 U?
+L 4xxx:4020 U1
 U 1 1 5FCB685F
 P 5200 3350
-F 0 "U?" H 5200 4331 50  0000 C CNN
+F 0 "U1" H 5200 4331 50  0000 C CNN
 F 1 "4020" H 5200 4240 50  0000 C CNN
 F 2 "" H 5200 3350 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 5200 3350 50  0001 C CNN
@@ -245,8 +166,6 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms
 $EndComp
 Wire Wire Line
 	6000 2850 5700 2850
-Text Label 6000 2850 0    50   ~ 0
-Anemometer_Out
 Wire Wire Line
 	4450 2850 4700 2850
 Wire Wire Line
@@ -292,133 +211,192 @@ Wire Wire Line
 Text Label 3000 2800 2    50   ~ 0
 supply_on
 Wire Wire Line
-	7800 2900 7800 2850
-Wire Wire Line
-	7100 3800 6900 3800
-Text Label 6900 3800 2    50   ~ 0
-supply_on
-Wire Wire Line
-	7700 4000 7700 4050
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5FD161AC
-P 7600 3800
-F 0 "Q?" H 7791 3846 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 7791 3755 50  0000 L CNN
-F 2 "" H 7800 3900 50  0001 C CNN
-F 3 "~" H 7600 3800 50  0001 C CNN
-	1    7600 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FD161A6
-P 7250 3800
-F 0 "R?" H 7320 3846 50  0000 L CNN
-F 1 "R" H 7320 3755 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 7180 3800 50  0001 C CNN
-F 3 "~" H 7250 3800 50  0001 C CNN
-	1    7250 3800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7700 3600 7700 3450
-Text Label 7700 3450 0    50   ~ 0
-VDD
-$Comp
-L Device:R R?
-U 1 1 5FD1619D
-P 7700 4250
-F 0 "R?" H 7770 4296 50  0000 L CNN
-F 1 "R" H 7770 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 7630 4250 50  0001 C CNN
-F 3 "~" H 7700 4250 50  0001 C CNN
-	1    7700 4250
-	1    0    0    -1  
-$EndComp
-Text Label 7700 4550 0    50   ~ 0
-GND
-Wire Wire Line
-	7700 4400 7700 4550
-Wire Wire Line
-	7700 4050 9000 4050
-Wire Wire Line
-	9000 4050 9000 4100
-Connection ~ 7700 4050
-Wire Wire Line
-	7700 4050 7700 4100
-Text Label 2600 1350 2    50   ~ 0
+	9100 3000 9100 2950
+Text Label 3550 900  2    50   ~ 0
 VDD
 Wire Wire Line
-	2600 2300 2600 2450
-Text Label 2600 2450 2    50   ~ 0
+	3550 1850 3550 2000
+Text Label 3550 2000 2    50   ~ 0
 GND
 $Comp
 L Device:R R?
 U 1 1 5FD2702C
-P 2600 2150
-F 0 "R?" H 2670 2196 50  0000 L CNN
-F 1 "R" H 2670 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2530 2150 50  0001 C CNN
-F 3 "~" H 2600 2150 50  0001 C CNN
-	1    2600 2150
+P 3550 1700
+F 0 "R?" H 3620 1746 50  0000 L CNN
+F 1 "R" H 3620 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3480 1700 50  0001 C CNN
+F 3 "~" H 3550 1700 50  0001 C CNN
+	1    3550 1700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 1500 2600 1350
+	3550 1050 3550 900 
 $Comp
 L Device:R R?
 U 1 1 5FD27024
-P 3050 1700
-F 0 "R?" H 3120 1746 50  0000 L CNN
-F 1 "R" H 3120 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2980 1700 50  0001 C CNN
-F 3 "~" H 3050 1700 50  0001 C CNN
-	1    3050 1700
-	0    1    -1   0   
+P 3100 1250
+F 0 "R?" H 3170 1296 50  0000 L CNN
+F 1 "R" H 3170 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3030 1250 50  0001 C CNN
+F 3 "~" H 3100 1250 50  0001 C CNN
+	1    3100 1250
+	0    -1   1    0   
 $EndComp
-$Comp
-L Device:Q_NPN_BCE Q?
-U 1 1 5FD2701E
-P 2700 1700
-F 0 "Q?" H 2891 1746 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 2891 1655 50  0000 L CNN
-F 2 "" H 2900 1800 50  0001 C CNN
-F 3 "~" H 2700 1700 50  0001 C CNN
-	1    2700 1700
-	-1   0    0    -1  
-$EndComp
-Text Label 3400 1700 0    50   ~ 0
+Text Label 2750 1250 2    50   ~ 0
 supply_on
 Wire Wire Line
-	3200 1700 3400 1700
+	2950 1250 2750 1250
+Text Label 9100 3000 2    50   ~ 0
+VDD
+Text Label 7150 3000 0    50   ~ 0
+GND
 Wire Wire Line
-	2600 1900 2600 1950
+	3550 1450 3550 1500
 Wire Wire Line
-	1200 1950 2600 1950
-Connection ~ 2600 1950
+	3550 1500 3850 1500
+Connection ~ 3550 1500
 Wire Wire Line
-	2600 1950 2600 2000
-Text Label 7800 2900 2    50   ~ 0
+	3550 1500 3550 1550
+Text Label 3850 1500 0    50   ~ 0
+VDD_on
+Wire Wire Line
+	1200 1950 1500 1950
+Text Label 1500 1950 0    50   ~ 0
+VDD_on
+Wire Wire Line
+	9000 4100 8800 4100
+Text Label 8800 4100 2    50   ~ 0
+VDD_on
+$Comp
+L Device:Q_NJFET_DGS Q1
+U 1 1 5FCA4F46
+P 3450 1250
+F 0 "Q1" H 3641 1296 50  0000 L CNN
+F 1 "Q_NJFET_DGS" H 3641 1205 50  0000 L CNN
+F 2 "" H 3650 1350 50  0001 C CNN
+F 3 "~" H 3450 1250 50  0001 C CNN
+	1    3450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2850 9500 2850
+Wire Wire Line
+	7200 2100 7200 2300
+Wire Wire Line
+	7150 2700 7150 3000
+Connection ~ 7150 2400
+Text Label 7200 2100 1    50   ~ 0
 VDD
 $Comp
 L Device:R R3
 U 1 1 5FCAD4DB
-P 6100 5300
-F 0 "R3" H 6170 5346 50  0000 L CNN
-F 1 "R" H 6170 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6030 5300 50  0001 C CNN
-F 3 "~" H 6100 5300 50  0001 C CNN
-	1    6100 5300
+P 7150 2550
+F 0 "R3" H 7220 2596 50  0000 L CNN
+F 1 "10k" H 7220 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 2550 50  0001 C CNN
+F 3 "~" H 7150 2550 50  0001 C CNN
+	1    7150 2550
 	1    0    0    -1  
 $EndComp
-Text Label 6150 4850 1    50   ~ 0
-VDD
-Connection ~ 6100 5150
+Text Label 6000 2850 0    50   ~ 0
+Opto_Anemometer_Out
+Text Label 8350 2200 0    50   ~ 0
+Anemometer_Out
+Text Label 7050 2400 2    50   ~ 0
+Opto_Anemometer_Out
 Wire Wire Line
-	6100 5450 6100 5750
-Text Label 6100 5750 0    50   ~ 0
+	7050 2400 7150 2400
+Wire Wire Line
+	7300 2300 7200 2300
+Wire Wire Line
+	7300 2400 7150 2400
+Wire Wire Line
+	8200 2200 8350 2200
+Text Label 8100 2400 0    50   ~ 0
 GND
 Wire Wire Line
-	6150 4850 6150 5050
+	7900 2400 8100 2400
+$Comp
+L Device:R R2
+U 1 1 5FCA1125
+P 8050 2200
+F 0 "R2" V 7843 2200 50  0000 C CNN
+F 1 "1k" V 7934 2200 50  0000 C CNN
+F 2 "" V 7980 2200 50  0001 C CNN
+F 3 "~" H 8050 2200 50  0001 C CNN
+	1    8050 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:4N25 U1
+U 1 1 5FC7ABC6
+P 7600 2300
+F 0 "U1" H 7600 2625 50  0000 C CNN
+F 1 "4N25" H 7600 2534 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 7400 2100 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 7600 2300 50  0001 L CNN
+	1    7600 2300
+	-1   0    0    -1  
+$EndComp
+Text Label 9100 2850 2    50   ~ 0
+Anemometer_Out
+Wire Wire Line
+	6050 1300 6050 1500
+Text Label 6050 1300 1    50   ~ 0
+VDD
+Text Label 4900 1400 2    50   ~ 0
+supply_on
+Wire Wire Line
+	5950 1500 6050 1500
+Wire Wire Line
+	5050 1400 4900 1400
+Text Label 5150 1600 2    50   ~ 0
+GND
+Wire Wire Line
+	5350 1600 5150 1600
+$Comp
+L Device:R R1
+U 1 1 5FCAEA05
+P 5200 1400
+F 0 "R1" V 4993 1400 50  0000 C CNN
+F 1 "1k" V 5084 1400 50  0000 C CNN
+F 2 "" V 5130 1400 50  0001 C CNN
+F 3 "~" H 5200 1400 50  0001 C CNN
+	1    5200 1400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Isolator:4N25 U2
+U 1 1 5FCAEA0B
+P 5650 1500
+F 0 "U2" H 5650 1825 50  0000 C CNN
+F 1 "4N25" H 5650 1734 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 5450 1300 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 5650 1500 50  0001 L CNN
+	1    5650 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1600 6150 1600
+Text Label 6150 1600 0    50   ~ 0
+VDD_on
+Wire Wire Line
+	3200 3750 2900 3750
+Text Label 2900 3750 2    50   ~ 0
+Battery_status
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5FCA41A5
+P 1050 2800
+F 0 "J1" H 968 3117 50  0000 C CNN
+F 1 "Charge controller" H 968 3026 50  0000 C CNN
+F 2 "" H 1050 2800 50  0001 C CNN
+F 3 "~" H 1050 2800 50  0001 C CNN
+	1    1050 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2900 1550 2900
+Text Label 1550 2900 0    50   ~ 0
+Battery_status
 $EndSCHEMATC
