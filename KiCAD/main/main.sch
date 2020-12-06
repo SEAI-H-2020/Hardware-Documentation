@@ -37,16 +37,14 @@ Wire Wire Line
 	3200 3450 2900 3450
 Text Label 2900 3450 2    50   ~ 0
 DHT22_Data
-Text Label 1550 2700 0    50   ~ 0
+Text Label 2450 2400 0    50   ~ 0
 Vin_Buck
 Text Label 1550 2800 0    50   ~ 0
 GND
 Wire Wire Line
 	4750 2650 4450 2650
 Wire Wire Line
-	9100 2950 9500 2950
-Wire Wire Line
-	1200 3900 1500 3900
+	9250 2700 9650 2700
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5FC4DC93
@@ -84,48 +82,46 @@ Wire Wire Line
 Wire Wire Line
 	1200 1750 1500 1750
 Wire Wire Line
-	1550 2700 1250 2700
-Wire Wire Line
 	1550 2800 1250 2800
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5FC61584
-P 9700 2850
-F 0 "J4" H 9780 2842 50  0000 L CNN
-F 1 "Anemometer" H 9780 2751 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 9700 2850 50  0001 C CNN
-F 3 "~" H 9700 2850 50  0001 C CNN
-	1    9700 2850
+P 9850 2600
+F 0 "J4" H 9930 2592 50  0000 L CNN
+F 1 "Anemometer" H 9930 2501 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 9850 2600 50  0001 C CNN
+F 3 "~" H 9850 2600 50  0001 C CNN
+	1    9850 2600
 	1    0    0    -1  
 $EndComp
-Text Label 8800 4400 2    50   ~ 0
+Text Label 8150 3900 2    50   ~ 0
 GND
-Text Label 8800 4200 2    50   ~ 0
+Text Label 8150 3700 2    50   ~ 0
 DHT22_Data
 Wire Wire Line
-	9000 4300 8900 4300
-NoConn ~ 8900 4300
+	8350 3800 8250 3800
+NoConn ~ 8250 3800
 Wire Wire Line
-	9000 4400 8800 4400
+	8350 3900 8150 3900
 Wire Wire Line
-	9000 4200 8800 4200
+	8350 3700 8150 3700
 $Comp
 L DHT22:DHT22 IC1
 U 1 1 5FB3BE3A
-P 9000 4100
-F 0 "IC1" H 9342 3535 50  0000 C CNN
-F 1 "DHT22" H 9342 3626 50  0000 C CNN
-F 2 "DHT22" H 9750 4200 50  0001 L CNN
-F 3 "https://datasheet4u.com/datasheet-parts/DHT22-datasheet.php?id=792211" H 9750 4100 50  0001 L CNN
-F 4 "Digital-output relative humidity & temperature sensor/module DHT22" H 9750 4000 50  0001 L CNN "Description"
-F 5 "25.1" H 9750 3900 50  0001 L CNN "Height"
-F 6 "Aosong Electronics" H 9750 3800 50  0001 L CNN "Manufacturer_Name"
-F 7 "DHT22" H 9750 3700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 9750 3600 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 9750 3500 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 9750 3400 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 9750 3300 50  0001 L CNN "Mouser Price/Stock"
-	1    9000 4100
+P 8350 3600
+F 0 "IC1" H 8692 3035 50  0000 C CNN
+F 1 "DHT22" H 8692 3126 50  0000 C CNN
+F 2 "DHT22" H 9100 3700 50  0001 L CNN
+F 3 "https://datasheet4u.com/datasheet-parts/DHT22-datasheet.php?id=792211" H 9100 3600 50  0001 L CNN
+F 4 "Digital-output relative humidity & temperature sensor/module DHT22" H 9100 3500 50  0001 L CNN "Description"
+F 5 "25.1" H 9100 3400 50  0001 L CNN "Height"
+F 6 "Aosong Electronics" H 9100 3300 50  0001 L CNN "Manufacturer_Name"
+F 7 "DHT22" H 9100 3200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 9100 3100 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 9100 3000 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 9100 2900 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 9100 2800 50  0001 L CNN "Mouser Price/Stock"
+	1    8350 3600
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -211,75 +207,21 @@ Wire Wire Line
 Text Label 3000 2800 2    50   ~ 0
 supply_on
 Wire Wire Line
-	9100 3000 9100 2950
-Text Label 3550 900  2    50   ~ 0
-VDD
-Wire Wire Line
-	3550 1850 3550 2000
-Text Label 3550 2000 2    50   ~ 0
-GND
-$Comp
-L Device:R R?
-U 1 1 5FD2702C
-P 3550 1700
-F 0 "R?" H 3620 1746 50  0000 L CNN
-F 1 "R" H 3620 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3480 1700 50  0001 C CNN
-F 3 "~" H 3550 1700 50  0001 C CNN
-	1    3550 1700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 1050 3550 900 
-$Comp
-L Device:R R?
-U 1 1 5FD27024
-P 3100 1250
-F 0 "R?" H 3170 1296 50  0000 L CNN
-F 1 "R" H 3170 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3030 1250 50  0001 C CNN
-F 3 "~" H 3100 1250 50  0001 C CNN
-	1    3100 1250
-	0    -1   1    0   
-$EndComp
-Text Label 2750 1250 2    50   ~ 0
-supply_on
-Wire Wire Line
-	2950 1250 2750 1250
-Text Label 9100 3000 2    50   ~ 0
+	9250 2750 9250 2700
+Text Label 9250 2750 2    50   ~ 0
 VDD
 Text Label 7150 3000 0    50   ~ 0
 GND
 Wire Wire Line
-	3550 1450 3550 1500
-Wire Wire Line
-	3550 1500 3850 1500
-Connection ~ 3550 1500
-Wire Wire Line
-	3550 1500 3550 1550
-Text Label 3850 1500 0    50   ~ 0
-VDD_on
-Wire Wire Line
 	1200 1950 1500 1950
 Text Label 1500 1950 0    50   ~ 0
-VDD_on
+supply_on
 Wire Wire Line
-	9000 4100 8800 4100
-Text Label 8800 4100 2    50   ~ 0
-VDD_on
-$Comp
-L Device:Q_NJFET_DGS Q1
-U 1 1 5FCA4F46
-P 3450 1250
-F 0 "Q1" H 3641 1296 50  0000 L CNN
-F 1 "Q_NJFET_DGS" H 3641 1205 50  0000 L CNN
-F 2 "" H 3650 1350 50  0001 C CNN
-F 3 "~" H 3450 1250 50  0001 C CNN
-	1    3450 1250
-	1    0    0    -1  
-$EndComp
+	8350 3600 8150 3600
+Text Label 8150 3600 2    50   ~ 0
+supply_on
 Wire Wire Line
-	9100 2850 9500 2850
+	9250 2600 9650 2600
 Wire Wire Line
 	7200 2100 7200 2300
 Wire Wire Line
@@ -338,48 +280,8 @@ F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 7600 2300 50  0001 L CNN
 	1    7600 2300
 	-1   0    0    -1  
 $EndComp
-Text Label 9100 2850 2    50   ~ 0
+Text Label 9250 2600 2    50   ~ 0
 Anemometer_Out
-Wire Wire Line
-	6050 1300 6050 1500
-Text Label 6050 1300 1    50   ~ 0
-VDD
-Text Label 4900 1400 2    50   ~ 0
-supply_on
-Wire Wire Line
-	5950 1500 6050 1500
-Wire Wire Line
-	5050 1400 4900 1400
-Text Label 5150 1600 2    50   ~ 0
-GND
-Wire Wire Line
-	5350 1600 5150 1600
-$Comp
-L Device:R R1
-U 1 1 5FCAEA05
-P 5200 1400
-F 0 "R1" V 4993 1400 50  0000 C CNN
-F 1 "1k" V 5084 1400 50  0000 C CNN
-F 2 "" V 5130 1400 50  0001 C CNN
-F 3 "~" H 5200 1400 50  0001 C CNN
-	1    5200 1400
-	0    -1   1    0   
-$EndComp
-$Comp
-L Isolator:4N25 U2
-U 1 1 5FCAEA0B
-P 5650 1500
-F 0 "U2" H 5650 1825 50  0000 C CNN
-F 1 "4N25" H 5650 1734 50  0000 C CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 5450 1300 50  0001 L CIN
-F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 5650 1500 50  0001 L CNN
-	1    5650 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 1600 6150 1600
-Text Label 6150 1600 0    50   ~ 0
-VDD_on
 Wire Wire Line
 	3200 3750 2900 3750
 Text Label 2900 3750 2    50   ~ 0
@@ -399,4 +301,23 @@ Wire Wire Line
 	1250 2900 1550 2900
 Text Label 1550 2900 0    50   ~ 0
 Battery_status
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5FCD740E
+P 2100 2500
+F 0 "SW?" H 2100 2785 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2100 2694 50  0000 C CNN
+F 2 "" H 2100 2500 50  0001 C CNN
+F 3 "~" H 2100 2500 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3900 1500 3900
+Wire Wire Line
+	2300 2400 2450 2400
+Wire Wire Line
+	1900 2700 1900 2500
+Wire Wire Line
+	1250 2700 1900 2700
 $EndSCHEMATC
