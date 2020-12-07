@@ -339,10 +339,10 @@ RXD0
 Text Label 9350 2600 0    50   ~ 0
 TXD0
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J5
+L Connector_Generic:Conn_02x04_Odd_Even J6
 U 1 1 5FC4BA04
 P 1650 4500
-F 0 "J5" H 1700 4817 50  0000 C CNN
+F 0 "J6" H 1700 4817 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 1700 4726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1650 4500 50  0001 C CNN
 F 3 "~" H 1650 4500 50  0001 C CNN
