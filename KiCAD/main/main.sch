@@ -84,10 +84,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 2800 1250 2800
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5FC61584
 P 9850 2600
-F 0 "J4" H 9930 2592 50  0000 L CNN
+F 0 "J5" H 9930 2592 50  0000 L CNN
 F 1 "Anemometer" H 9930 2501 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 9850 2600 50  0001 C CNN
 F 3 "~" H 9850 2600 50  0001 C CNN
@@ -238,7 +238,7 @@ F 1 "10k" H 7220 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 2550 50  0001 C CNN
 F 3 "~" H 7150 2550 50  0001 C CNN
 	1    7150 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 6000 2850 0    50   ~ 0
 Opto_Anemometer_Out
@@ -286,20 +286,9 @@ Wire Wire Line
 	3200 3750 2900 3750
 Text Label 2900 3750 2    50   ~ 0
 Battery_status
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 5FCA41A5
-P 1050 2800
-F 0 "J3" H 968 3117 50  0000 C CNN
-F 1 "Charge controller" H 968 3026 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 1050 2800 50  0001 C CNN
-F 3 "~" H 1050 2800 50  0001 C CNN
-	1    1050 2800
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	1250 2900 1550 2900
-Text Label 1550 2900 0    50   ~ 0
+	1250 3100 1550 3100
+Text Label 1550 3100 0    50   ~ 0
 Battery_status
 Wire Wire Line
 	1200 3900 1500 3900
@@ -319,5 +308,27 @@ F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 2100 2500 50  0001 C
 F 3 "~" H 2100 2500 50  0001 C CNN
 	1    2100 2500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5FD1D628
+P 1050 2700
+F 0 "J3" H 968 2917 50  0000 C CNN
+F 1 "Charge Controller" H 968 2826 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 1050 2700 50  0001 C CNN
+F 3 "~" H 1050 2700 50  0001 C CNN
+	1    1050 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5FD1E1C3
+P 1050 3100
+F 0 "J4" H 968 3317 50  0000 C CNN
+F 1 "Battery Status" H 968 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1050 3100 50  0001 C CNN
+F 3 "~" H 1050 3100 50  0001 C CNN
+	1    1050 3100
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
