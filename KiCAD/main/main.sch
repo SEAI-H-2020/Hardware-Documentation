@@ -46,10 +46,10 @@ Wire Wire Line
 Wire Wire Line
 	9250 2700 9650 2700
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x04 J?
 U 1 1 5FC4DC93
 P 1000 3700
-F 0 "J3" H 918 4017 50  0000 C CNN
+F 0 "J?" H 918 4017 50  0000 C CNN
 F 1 "BuckConverter" H 918 3926 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 1000 3700 50  0001 C CNN
 F 3 "~" H 1000 3700 50  0001 C CNN
@@ -64,10 +64,10 @@ Wire Wire Line
 	1200 3600 1350 3600
 NoConn ~ 1350 3600
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x04 J?
 U 1 1 5FC5154E
 P 1000 1850
-F 0 "J2" H 918 2167 50  0000 C CNN
+F 0 "J?" H 918 2167 50  0000 C CNN
 F 1 "Sound Sensor" H 918 2076 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 1000 1850 50  0001 C CNN
 F 3 "~" H 1000 1850 50  0001 C CNN
@@ -84,10 +84,10 @@ Wire Wire Line
 Wire Wire Line
 	1550 2800 1250 2800
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5FC61584
 P 9850 2600
-F 0 "J4" H 9930 2592 50  0000 L CNN
+F 0 "J?" H 9930 2592 50  0000 L CNN
 F 1 "Anemometer" H 9930 2501 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 9850 2600 50  0001 C CNN
 F 3 "~" H 9850 2600 50  0001 C CNN
@@ -106,10 +106,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 3700 8150 3700
 $Comp
-L DHT22:DHT22 IC1
+L DHT22:DHT22 IC?
 U 1 1 5FB3BE3A
 P 8350 3600
-F 0 "IC1" H 8692 3035 50  0000 C CNN
+F 0 "IC?" H 8692 3035 50  0000 C CNN
 F 1 "DHT22" H 8692 3126 50  0000 C CNN
 F 2 "DHT22" H 9100 3700 50  0001 L CNN
 F 3 "https://datasheet4u.com/datasheet-parts/DHT22-datasheet.php?id=792211" H 9100 3600 50  0001 L CNN
@@ -150,10 +150,10 @@ F19 "IO14" I L 3200 2800 50
 F20 "IO13" I L 3200 3450 50 
 $EndSheet
 $Comp
-L 4xxx:4020 U1
+L 4xxx:4020 U?
 U 1 1 5FCB685F
 P 5200 3350
-F 0 "U1" H 5200 4331 50  0000 C CNN
+F 0 "U?" H 5200 4331 50  0000 C CNN
 F 1 "4020" H 5200 4240 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5200 3350 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 5200 3350 50  0001 C CNN
@@ -230,10 +230,10 @@ Connection ~ 7150 2400
 Text Label 7200 2100 1    50   ~ 0
 VDD
 $Comp
-L Device:R R3
+L Device:R R?
 U 1 1 5FCAD4DB
 P 7150 2550
-F 0 "R3" H 7220 2596 50  0000 L CNN
+F 0 "R?" H 7220 2596 50  0000 L CNN
 F 1 "10k" H 7220 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 2550 50  0001 C CNN
 F 3 "~" H 7150 2550 50  0001 C CNN
@@ -259,10 +259,10 @@ GND
 Wire Wire Line
 	7900 2400 8100 2400
 $Comp
-L Device:R R2
+L Device:R R?
 U 1 1 5FCA1125
 P 8050 2200
-F 0 "R2" V 7843 2200 50  0000 C CNN
+F 0 "R?" V 7843 2200 50  0000 C CNN
 F 1 "620" V 7934 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7980 2200 50  0001 C CNN
 F 3 "~" H 8050 2200 50  0001 C CNN
@@ -270,10 +270,10 @@ F 3 "~" H 8050 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:4N25 U1
+L Isolator:4N25 U?
 U 1 1 5FC7ABC6
 P 7600 2300
-F 0 "U1" H 7600 2625 50  0000 C CNN
+F 0 "U?" H 7600 2625 50  0000 C CNN
 F 1 "4N25" H 7600 2534 50  0000 C CNN
 F 2 "Package_DIP:DIP-6_W7.62mm_LongPads" H 7400 2100 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 7600 2300 50  0001 L CNN
@@ -287,10 +287,10 @@ Wire Wire Line
 Text Label 2900 3750 2    50   ~ 0
 Battery_status
 $Comp
-L Connector_Generic:Conn_01x03 J1
+L Connector_Generic:Conn_01x03 J?
 U 1 1 5FCA41A5
 P 1050 2800
-F 0 "J1" H 968 3117 50  0000 C CNN
+F 0 "J?" H 968 3117 50  0000 C CNN
 F 1 "Charge controller" H 968 3026 50  0000 C CNN
 F 2 "" H 1050 2800 50  0001 C CNN
 F 3 "~" H 1050 2800 50  0001 C CNN
