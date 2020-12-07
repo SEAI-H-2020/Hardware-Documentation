@@ -309,7 +309,7 @@ Wire Wire Line
 	8800 4700 9350 4700
 Wire Wire Line
 	8800 4800 9350 4800
-Text HLabel 9550 3700 2    50   Input ~ 0
+Text HLabel 9350 3700 2    50   Input ~ 0
 IO18
 Text HLabel 9350 4700 2    50   Input ~ 0
 IO34
@@ -363,28 +363,6 @@ Text HLabel 8350 5200 2    50   Input ~ 0
 GND
 Text Label 7200 2500 2    50   ~ 0
 EN
-Text Label 9350 4600 0    50   ~ 0
-IO33
-Text Label 9350 4500 0    50   ~ 0
-IO32
-Text Label 9350 4400 0    50   ~ 0
-IO27
-Text Label 9350 4300 0    50   ~ 0
-IO26
-Text Label 9350 4200 0    50   ~ 0
-IO25
-Text Label 9350 3800 0    50   ~ 0
-IO19
-Text Label 9350 3600 0    50   ~ 0
-IO17
-Text Label 9350 3500 0    50   ~ 0
-IO16
-Text Label 9350 3400 0    50   ~ 0
-IO15
-Text Label 9350 3300 0    50   ~ 0
-IO14
-Text Label 9350 3200 0    50   ~ 0
-IO13
 Text Label 9350 3100 0    50   ~ 0
 IO12
 Text Label 9350 3000 0    50   ~ 0
@@ -395,12 +373,6 @@ Text Label 9350 2700 0    50   ~ 0
 IO2
 Text Label 9350 2500 0    50   ~ 0
 IO0
-Text Label 9350 3900 0    50   ~ 0
-IO21
-Text Label 9350 4000 0    50   ~ 0
-IO22
-Text Label 9350 4100 0    50   ~ 0
-IO23
 Text Label 7200 2700 2    50   ~ 0
 SENSOR_VP
 Text Label 7200 2800 2    50   ~ 0
@@ -456,8 +428,36 @@ Wire Notes Line
 	2450 4400 2450 4600
 Wire Notes Line
 	2450 4600 2400 4600
-Wire Wire Line
-	8800 3700 9550 3700
 NoConn ~ 2150 4500
 NoConn ~ 2150 4600
+Text HLabel 9350 3800 2    50   Input ~ 0
+IO19
+Text HLabel 9350 3900 2    50   Input ~ 0
+I021
+Text HLabel 9350 4000 2    50   Input ~ 0
+IO22
+Text HLabel 9350 4600 2    50   Input ~ 0
+IO33
+Text HLabel 9350 4100 2    50   Input ~ 0
+IO23
+Text HLabel 9350 4200 2    50   Input ~ 0
+IO25
+Text HLabel 9350 4300 2    50   Input ~ 0
+IO26
+Text HLabel 9350 4400 2    50   Input ~ 0
+IO27
+Text HLabel 9350 4500 2    50   Input ~ 0
+IO32
+Wire Wire Line
+	8800 3700 9350 3700
+Text HLabel 9350 3600 2    50   Input ~ 0
+IO17
+Text HLabel 9350 3500 2    50   Input ~ 0
+IO16
+Text HLabel 9350 3400 2    50   Input ~ 0
+I015
+Text HLabel 9350 3300 2    50   Input ~ 0
+IO14
+Text HLabel 9350 3200 2    50   Input ~ 0
+IO13
 $EndSCHEMATC
