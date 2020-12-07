@@ -44,7 +44,7 @@ F 1 "10kR" H 3320 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3180 1550 50  0001 C CNN
 F 3 "~" H 3250 1550 50  0001 C CNN
 	1    3250 1550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C2
@@ -173,7 +173,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 1538 1450 50  0001 C CNN
 F 3 "~" H 1500 1600 50  0001 C CNN
 F 4 "50V" V 1500 1600 50  0001 C CNN "Voltage"
 	1    1500 1600
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	1350 1600 1100 1600

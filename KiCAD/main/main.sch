@@ -238,7 +238,7 @@ F 1 "10k" H 7220 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 2550 50  0001 C CNN
 F 3 "~" H 7150 2550 50  0001 C CNN
 	1    7150 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 6000 2850 0    50   ~ 0
 Opto_Anemometer_Out
