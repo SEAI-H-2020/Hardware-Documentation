@@ -1,0 +1,16 @@
+### Module positions - created on 12/08/20 21:45:05 ###
+### Printed by Pcbnew version kicad (5.1.7)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                 PosX       PosY       Rot  Side
+C1        0.1uF           C_1206_3216Metric   145.5000   -77.4750   90.0000  top
+C2        0.1uF           C_1206_3216Metric   109.5000   -92.0000    0.0000  top
+C3        22uF            C_1206_3216Metric   116.5000   -80.4750   90.0000  top
+C4        0.1uF           C_1206_3216Metric   116.5000   -73.8250   90.0000  top
+R1        10k             R_1206_3216Metric   156.5375  -111.5000    0.0000  top
+R2        620             R_1206_3216Metric   152.0000  -112.5375   90.0000  top
+R3        10kR            R_1206_3216Metric   109.5000   -96.5000    0.0000  top
+SW2       BOOT            SW_SPST_PTS645      154.5000   -77.5000    0.0000  top
+SW3       RESET           SW_SPST_PTS645      109.5000  -104.5000   90.0000  top
+U3        ESP32-WROOM-32  ESP32-WROOM-32      132.0000   -79.0000    0.0000  top
+## End
