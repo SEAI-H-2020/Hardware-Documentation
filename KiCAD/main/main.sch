@@ -286,8 +286,6 @@ Wire Wire Line
 	3200 3750 2900 3750
 Text Label 2900 3750 2    50   ~ 0
 Battery_status
-Wire Wire Line
-	1250 3100 1550 3100
 Text Label 1550 3100 0    50   ~ 0
 Battery_status
 Wire Wire Line
@@ -331,4 +329,97 @@ F 3 "~" H 1050 3100 50  0001 C CNN
 	1    1050 3100
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1250 3100 1450 3100
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FDCB7BA
+P 1450 3250
+F 0 "TP1" H 1392 3276 50  0000 R CNN
+F 1 "Batt_status" H 1392 3367 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1650 3250 50  0001 C CNN
+F 3 "~" H 1650 3250 50  0001 C CNN
+	1    1450 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 3250 1450 3100
+Connection ~ 1450 3100
+Wire Wire Line
+	1450 3100 1550 3100
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FDCD96A
+P 1500 5350
+F 0 "TP2" H 1442 5376 50  0000 R CNN
+F 1 "Vin_Buck" H 1442 5467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1700 5350 50  0001 C CNN
+F 3 "~" H 1700 5350 50  0001 C CNN
+	1    1500 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 5350 1500 5150
+Text Label 1500 5150 1    50   ~ 0
+Vin_Buck
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FDD2E43
+P 2000 5350
+F 0 "TP3" H 1942 5376 50  0000 R CNN
+F 1 "GND" H 1942 5467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2200 5350 50  0001 C CNN
+F 3 "~" H 2200 5350 50  0001 C CNN
+	1    2000 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 5150 2000 5350
+Text Label 2000 5150 1    50   ~ 0
+GND
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FDD4966
+P 2500 5350
+F 0 "TP4" H 2442 5376 50  0000 R CNN
+F 1 "VDD" H 2442 5467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2700 5350 50  0001 C CNN
+F 3 "~" H 2700 5350 50  0001 C CNN
+	1    2500 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 5350 2500 5150
+Text Label 2500 5150 1    50   ~ 0
+VDD
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5FDD6353
+P 3000 5350
+F 0 "TP5" H 2942 5376 50  0000 R CNN
+F 1 "supply_on" H 2942 5467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3200 5350 50  0001 C CNN
+F 3 "~" H 3200 5350 50  0001 C CNN
+	1    3000 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 5350 3000 5150
+Text Label 3000 5150 1    50   ~ 0
+supply_on
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5FDD7BC0
+P 3500 5350
+F 0 "TP6" H 3442 5376 50  0000 R CNN
+F 1 "Anemometer_Out" H 3442 5467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3700 5350 50  0001 C CNN
+F 3 "~" H 3700 5350 50  0001 C CNN
+	1    3500 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 5350 3500 5150
+Text Label 3500 5150 1    50   ~ 0
+Anemometer_Out
 $EndSCHEMATC
