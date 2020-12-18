@@ -424,4 +424,21 @@ Wire Wire Line
 Connection ~ 3250 2150
 Wire Wire Line
 	3250 2150 3250 2100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FDE9445
+P 5500 4350
+AR Path="/5FDE9445" Ref="TP?"  Part="1" 
+AR Path="/5F928E95/5FDE9445" Ref="TP7"  Part="1" 
+F 0 "TP7" H 5442 4376 50  0000 R CNN
+F 1 "EN" H 5442 4467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5700 4350 50  0001 C CNN
+F 3 "~" H 5700 4350 50  0001 C CNN
+	1    5500 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4350 5500 4150
+Text Label 5500 4150 1    50   ~ 0
+EN
 $EndSCHEMATC
