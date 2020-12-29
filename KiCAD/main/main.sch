@@ -259,17 +259,6 @@ GND
 Wire Wire Line
 	7900 2400 8100 2400
 $Comp
-L Device:R R2
-U 1 1 5FCA1125
-P 8050 2200
-F 0 "R2" V 7843 2200 50  0000 C CNN
-F 1 "620" V 7934 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7980 2200 50  0001 C CNN
-F 3 "~" H 8050 2200 50  0001 C CNN
-	1    8050 2200
-	0    1    1    0   
-$EndComp
-$Comp
 L Isolator:4N25 U2
 U 1 1 5FC7ABC6
 P 7600 2300
@@ -422,4 +411,15 @@ Wire Wire Line
 	3500 5350 3500 5150
 Text Label 3500 5150 1    50   ~ 0
 Anemometer_Out
+$Comp
+L Device:R R2
+U 1 1 5FCA1125
+P 8050 2200
+F 0 "R2" V 7843 2200 50  0000 C CNN
+F 1 "620" V 7934 2200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7980 2200 50  0001 C CNN
+F 3 "~" H 8050 2200 50  0001 C CNN
+	1    8050 2200
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

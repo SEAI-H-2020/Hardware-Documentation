@@ -173,7 +173,7 @@ F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1538 1450 50  0001 C CNN
 F 3 "~" H 1500 1600 50  0001 C CNN
 F 4 "50V" V 1500 1600 50  0001 C CNN "Voltage"
 	1    1500 1600
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1350 1600 1100 1600
@@ -188,7 +188,7 @@ F 1 "BOOT" H 1500 1394 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1500 1400 50  0001 C CNN
 F 3 "~" H 1500 1400 50  0001 C CNN
 	1    1500 1200
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1300 1200 1100 1200
