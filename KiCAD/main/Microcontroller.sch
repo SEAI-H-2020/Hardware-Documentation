@@ -97,18 +97,6 @@ F 4 "50V" H 7915 1759 50  0001 L CNN "Voltage"
 	1    7800 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP C3
-U 1 1 5F946123
-P 7350 1850
-F 0 "C3" H 7465 1896 50  0000 L CNN
-F 1 "22uF" H 7465 1805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7388 1700 50  0001 C CNN
-F 3 "~" H 7350 1850 50  0001 C CNN
-F 4 "10V" H 7465 1759 50  0001 L CNN "Voltage"
-	1    7350 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7350 1700 7350 1650
 Wire Wire Line
@@ -188,7 +176,7 @@ F 1 "BOOT" H 1500 1394 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1500 1400 50  0001 C CNN
 F 3 "~" H 1500 1400 50  0001 C CNN
 	1    1500 1200
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1300 1200 1100 1200
@@ -441,4 +429,16 @@ Wire Wire Line
 	5500 4350 5500 4150
 Text Label 5500 4150 1    50   ~ 0
 EN
+$Comp
+L Device:CP C3
+U 1 1 5F946123
+P 7350 1850
+F 0 "C3" H 7465 1896 50  0000 L CNN
+F 1 "22uF" H 7465 1805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7388 1700 50  0001 C CNN
+F 3 "~" H 7350 1850 50  0001 C CNN
+F 4 "10V" H 7465 1759 50  0001 L CNN "Voltage"
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
