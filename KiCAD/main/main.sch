@@ -69,7 +69,7 @@ U 1 1 5FC5154E
 P 1000 1850
 F 0 "J1" H 918 2167 50  0000 C CNN
 F 1 "Sound Sensor" H 918 2076 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 1000 1850 50  0001 C CNN
+F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 1000 1850 50  0001 C CNN
 F 3 "~" H 1000 1850 50  0001 C CNN
 	1    1000 1850
 	-1   0    0    -1  
@@ -96,34 +96,12 @@ F 3 "~" H 9850 2600 50  0001 C CNN
 $EndComp
 Text Label 8150 3900 2    50   ~ 0
 GND
-Text Label 8150 3700 2    50   ~ 0
+Text Label 8150 3600 2    50   ~ 0
 DHT22_Data
-Wire Wire Line
-	8350 3800 8250 3800
-NoConn ~ 8250 3800
 Wire Wire Line
 	8350 3900 8150 3900
 Wire Wire Line
 	8350 3700 8150 3700
-$Comp
-L DHT22:DHT22 IC1
-U 1 1 5FB3BE3A
-P 8350 3600
-F 0 "IC1" H 8692 3035 50  0000 C CNN
-F 1 "DHT22" H 8692 3126 50  0000 C CNN
-F 2 "Local:DHT22" H 9100 3700 50  0001 L CNN
-F 3 "https://datasheet4u.com/datasheet-parts/DHT22-datasheet.php?id=792211" H 9100 3600 50  0001 L CNN
-F 4 "Digital-output relative humidity & temperature sensor/module DHT22" H 9100 3500 50  0001 L CNN "Description"
-F 5 "25.1" H 9100 3400 50  0001 L CNN "Height"
-F 6 "Aosong Electronics" H 9100 3300 50  0001 L CNN "Manufacturer_Name"
-F 7 "DHT22" H 9100 3200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 9100 3100 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 9100 3000 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 9100 2900 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 9100 2800 50  0001 L CNN "Mouser Price/Stock"
-	1    8350 3600
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 3200 2500 1250 1550
 U 5F928E95
@@ -218,7 +196,7 @@ Text Label 1500 1950 0    50   ~ 0
 supply_on
 Wire Wire Line
 	8350 3600 8150 3600
-Text Label 8150 3600 2    50   ~ 0
+Text Label 8150 3800 2    50   ~ 0
 supply_on
 Wire Wire Line
 	9250 2600 9650 2600
@@ -421,5 +399,63 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7980 2200
 F 3 "~" H 8050 2200 50  0001 C CNN
 	1    8050 2200
 	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5FF3154C
+P 8550 3700
+F 0 "J7" H 8468 4017 50  0000 C CNN
+F 1 "DHT22" H 8468 3926 50  0000 C CNN
+F 2 "Connector:NS-Tech_Grove_1x04_P2mm_Vertical" H 8550 3700 50  0001 C CNN
+F 3 "~" H 8550 3700 50  0001 C CNN
+	1    8550 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8150 3700
+Wire Wire Line
+	8150 3800 8350 3800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FF3F11A
+P 2300 6400
+F 0 "H1" H 2400 6446 50  0000 L CNN
+F 1 "MountingHole" H 2400 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2300 6400 50  0001 C CNN
+F 3 "~" H 2300 6400 50  0001 C CNN
+	1    2300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FF3F7F3
+P 3050 6400
+F 0 "H2" H 3150 6446 50  0000 L CNN
+F 1 "MountingHole" H 3150 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3050 6400 50  0001 C CNN
+F 3 "~" H 3050 6400 50  0001 C CNN
+	1    3050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FF3FB3A
+P 3800 6400
+F 0 "H3" H 3900 6446 50  0000 L CNN
+F 1 "MountingHole" H 3900 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3800 6400 50  0001 C CNN
+F 3 "~" H 3800 6400 50  0001 C CNN
+	1    3800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FF3FF6B
+P 4550 6400
+F 0 "H4" H 4650 6446 50  0000 L CNN
+F 1 "MountingHole" H 4650 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4550 6400 50  0001 C CNN
+F 3 "~" H 4550 6400 50  0001 C CNN
+	1    4550 6400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
