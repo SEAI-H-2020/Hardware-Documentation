@@ -43,8 +43,6 @@ Text Label 1550 2800 0    50   ~ 0
 GND
 Wire Wire Line
 	4750 2650 4450 2650
-Wire Wire Line
-	9250 2700 9650 2700
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5FC4DC93
@@ -84,15 +82,15 @@ Wire Wire Line
 Wire Wire Line
 	1550 2800 1250 2800
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector:4P4C J5
 U 1 1 5FC61584
-P 9850 2600
-F 0 "J5" H 9930 2592 50  0000 L CNN
-F 1 "Anemometer" H 9930 2501 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 9850 2600 50  0001 C CNN
-F 3 "~" H 9850 2600 50  0001 C CNN
-	1    9850 2600
-	1    0    0    -1  
+P 10050 2600
+F 0 "J5" H 10250 2350 50  0000 L CNN
+F 1 "Anemometer" H 9750 2350 50  0000 L CNN
+F 2 "Connector_RJ:RJ14_Connfly_DS1133-S4_Horizontal" H 10050 2600 50  0001 C CNN
+F 3 "~" H 10050 2600 50  0001 C CNN
+	1    10050 2600
+	-1   0    0    1   
 $EndComp
 Text Label 8150 3900 2    50   ~ 0
 GND
@@ -184,9 +182,7 @@ Wire Wire Line
 	3200 2800 3000 2800
 Text Label 3000 2800 2    50   ~ 0
 supply_on
-Wire Wire Line
-	9250 2750 9250 2700
-Text Label 9250 2750 2    50   ~ 0
+Text Label 9250 2600 2    50   ~ 0
 VDD
 Text Label 7150 3000 0    50   ~ 0
 GND
@@ -198,8 +194,6 @@ Wire Wire Line
 	8350 3600 8150 3600
 Text Label 8150 3800 2    50   ~ 0
 supply_on
-Wire Wire Line
-	9250 2600 9650 2600
 Wire Wire Line
 	7200 2100 7200 2300
 Wire Wire Line
@@ -247,7 +241,7 @@ F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 7600 2300 50  0001 L CNN
 	1    7600 2300
 	-1   0    0    -1  
 $EndComp
-Text Label 9250 2600 2    50   ~ 0
+Text Label 9250 2700 2    50   ~ 0
 Anemometer_Out
 Wire Wire Line
 	3200 3750 2900 3750
@@ -458,4 +452,8 @@ F 3 "~" H 4550 6400 50  0001 C CNN
 	1    4550 6400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9250 2600 9650 2600
+Wire Wire Line
+	9250 2700 9650 2700
 $EndSCHEMATC

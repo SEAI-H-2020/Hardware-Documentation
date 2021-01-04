@@ -85,18 +85,6 @@ F 3 "" H 7350 1600 50  0001 C CNN
 	1    7350 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C4
-U 1 1 5F9451F0
-P 7800 1850
-F 0 "C4" H 7915 1896 50  0000 L CNN
-F 1 "0.1uF" H 7915 1805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7838 1700 50  0001 C CNN
-F 3 "~" H 7800 1850 50  0001 C CNN
-F 4 "50V" H 7915 1759 50  0001 L CNN "Voltage"
-	1    7800 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7350 1700 7350 1650
 Wire Wire Line
@@ -440,5 +428,17 @@ F 3 "~" H 7350 1850 50  0001 C CNN
 F 4 "10V" H 7465 1759 50  0001 L CNN "Voltage"
 	1    7350 1850
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F9451F0
+P 7800 1850
+F 0 "C4" H 7915 1896 50  0000 L CNN
+F 1 "0.1uF" H 7915 1805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7838 1700 50  0001 C CNN
+F 3 "~" H 7800 1850 50  0001 C CNN
+F 4 "50V" H 7915 1759 50  0001 L CNN "Voltage"
+	1    7800 1850
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
