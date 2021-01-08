@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Main schematics"
-Date "2021-01-04"
-Rev "2.2"
+Date "2021-01-08"
+Rev "2.3"
 Comp "Faculdade de Engenharia da Universidade do Porto"
 Comment1 ""
 Comment2 ""
