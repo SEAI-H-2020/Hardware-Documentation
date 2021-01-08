@@ -193,7 +193,7 @@ supply_on
 Wire Wire Line
 	9150 3350 9350 3350
 Text Label 9350 3550 0    50   ~ 0
-supply_on
+VDD
 Wire Wire Line
 	6800 3450 6800 3650
 Wire Wire Line
