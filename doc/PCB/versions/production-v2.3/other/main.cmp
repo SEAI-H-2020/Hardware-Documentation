@@ -1,0 +1,251 @@
+Cmp-Mod V01 Created by PcbNew   date = 08/01/2021 10:57:59
+
+BeginCmp
+TimeStamp = 5FF3488A
+Path = /5FC61584
+Reference = J7;
+ValeurCmp = Anemometer;
+IdModule  = Connector_RJ:RJ14_Connfly_DS1133-S4_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF844C8
+Path = /5FF3154C
+Reference = J6;
+ValeurCmp = DHT22;
+IdModule  = Connector:NS-Tech_Grove_1x04_P2mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF32D8E
+Path = /5FC5154E
+Reference = J5;
+ValeurCmp = Sound Sensor;
+IdModule  = Connector:NS-Tech_Grove_1x04_P2mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3E243
+Path = /5FF3FF6B
+Reference = H4;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3E23B
+Path = /5FF3FB3A
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3E233
+Path = /5FF3F7F3
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3E22B
+Path = /5FF3F11A
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FEC1EFC
+Path = /5F928E95/5F93B762
+Reference = U3;
+ValeurCmp = ESP32-WROOM-32;
+IdModule  = RF_Module:ESP32-WROOM-32;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FEC76E2
+Path = /5FCB685F
+Reference = U1;
+ValeurCmp = 4020;
+IdModule  = Package_DIP:DIP-16_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3A405
+Path = /5F928E95/5F960D3E
+Reference = SW3;
+ValeurCmp = RESET;
+IdModule  = Button_Switch_THT:SW_PUSH_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3DB2A
+Path = /5F928E95/5F9596F6
+Reference = SW2;
+ValeurCmp = BOOT;
+IdModule  = Button_Switch_THT:SW_PUSH_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF39EB4
+Path = /5F928E95/5F94208F
+Reference = R3;
+ValeurCmp = 10kR;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF39A45
+Path = /5FCA1125
+Reference = R2;
+ValeurCmp = 620;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF39A03
+Path = /5FCAD4DB
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3DCB6
+Path = /5F928E95/5F9451F0
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3DE99
+Path = /5F928E95/5F946123
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = Capacitor_THT:CP_Radial_D6.3mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3A3BF
+Path = /5F928E95/5F9429EB
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3DB7A
+Path = /5F928E95/5F9586F2
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FEC1061
+Path = /5F928E95/5FDE9445
+Reference = TP7;
+ValeurCmp = EN;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF399D3
+Path = /5FDD7BC0
+Reference = TP6;
+ValeurCmp = Anemometer_Out;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF3982E
+Path = /5FDD6353
+Reference = TP5;
+ValeurCmp = supply_on;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FEC009E
+Path = /5FDD4966
+Reference = TP4;
+ValeurCmp = VDD;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FDC9BB5
+Path = /5FDD2E43
+Reference = TP3;
+ValeurCmp = GND;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FDC9BA7
+Path = /5FDCD96A
+Reference = TP2;
+ValeurCmp = Vin_Buck;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FDC9B99
+Path = /5FDCB7BA
+Reference = TP1;
+ValeurCmp = Batt_status;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FCE923C
+Path = /5FCD21D1
+Reference = SW1;
+ValeurCmp = SW_SPDT;
+IdModule  = Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FF39994
+Path = /5FC7ABC6
+Reference = U2;
+ValeurCmp = 4N25;
+IdModule  = Package_DIP:DIP-6_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FEBC166
+Path = /5F928E95/5FC4BA04
+Reference = J4;
+ValeurCmp = Conn_02x04_Odd_Even;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FCE91A9
+Path = /5FD1E1C3
+Reference = J3;
+ValeurCmp = Battery Status;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FCE9194
+Path = /5FD1D628
+Reference = J1;
+ValeurCmp = Charge Controller;
+IdModule  = Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5FCE916A
+Path = /5FC4DC93
+Reference = J2;
+ValeurCmp = BuckConverter;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical;
+EndCmp
+
+EndListe

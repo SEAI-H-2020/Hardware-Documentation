@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Main schematics"
-Date "2021-01-04"
-Rev "2.2"
+Date "2021-01-08"
+Rev "2.3"
 Comp "Faculdade de Engenharia da Universidade do Porto"
 Comment1 ""
 Comment2 ""
@@ -193,7 +193,7 @@ supply_on
 Wire Wire Line
 	9150 3350 9350 3350
 Text Label 9350 3550 0    50   ~ 0
-supply_on
+VDD
 Wire Wire Line
 	6800 3450 6800 3650
 Wire Wire Line
