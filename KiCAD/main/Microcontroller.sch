@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "ESP32-DevKitC-V4"
-Date "2021-01-04"
-Rev "2.2"
+Date "2021-01-11"
+Rev "2.3.1"
 Comp "Faculdade de Engenharia da Universidade do Porto"
 Comment1 ""
 Comment2 ""
