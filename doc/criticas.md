@@ -8,3 +8,6 @@
 - Number of unfulfilled tasks should not be a KPI because doesnt really represent the reality of the project
 - Budget should be made into a KPI, comparing with a goal value.
 
+## João Tasso:
+- Podiamos ter mostrado alguma análise/cálculos para dar backup aos KPI's
+
