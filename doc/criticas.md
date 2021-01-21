@@ -11,3 +11,7 @@
 ## João Tasso:
 - Podiamos ter mostrado alguma análise/cálculos para dar backup aos KPI's
 
+## Aníbal Matos:
+- (geral) Comparação entre Gannt inicial (de previsão) e o real (daquilo que foi feito)
+- (geral) Um pouco de mais cuidado na escolha de palavras para a apresentação, especialmente na parte técnica
+
